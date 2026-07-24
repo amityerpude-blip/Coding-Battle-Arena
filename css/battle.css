@@ -1,0 +1,561 @@
+/* =====================================================
+   CODING BATTLE ARENA
+   Battle System Styling
+   Version: 1.0
+===================================================== */
+
+
+/* ================================
+   BATTLE HEADER AREA
+================================ */
+
+
+.battle-top {
+
+    margin-top:10px;
+
+}
+
+
+
+.lives {
+
+    display:flex;
+
+    align-items:center;
+
+}
+
+
+
+/* Active Life */
+
+.life-active {
+
+    filter:
+
+    drop-shadow(0 0 8px red);
+
+}
+
+
+
+/* Lost Life */
+
+.life-lost {
+
+    opacity:0.3;
+
+    filter:
+
+    grayscale(1);
+
+}
+
+
+
+
+
+/* ================================
+   QUESTION COUNTER
+================================ */
+
+
+#questionNumber {
+
+
+    color:
+
+    var(--battle-color);
+
+
+    font-weight:
+
+    bold;
+
+
+}
+
+
+
+#totalQuestions {
+
+
+    color:
+
+    var(--light-text);
+
+
+}
+
+
+
+
+
+/* ================================
+   APPRENTICE ARENA
+================================ */
+
+
+.apprentice-title {
+
+
+    color:
+
+    var(--primary-color);
+
+
+}
+
+
+
+
+
+.mcq-container {
+
+
+    margin-top:
+
+    20px;
+
+
+}
+
+
+
+
+
+/* Answer Feedback */
+
+
+.feedback {
+
+
+    margin-top:
+
+    20px;
+
+
+    padding:
+
+    15px;
+
+
+    border-radius:
+
+    12px;
+
+
+    font-weight:
+
+    bold;
+
+
+}
+
+
+
+.feedback.correct {
+
+
+    background:
+
+    rgba(0,184,148,0.15);
+
+
+    color:
+
+    var(--success-color);
+
+
+}
+
+
+
+.feedback.wrong {
+
+
+    background:
+
+    rgba(214,48,49,0.15);
+
+
+    color:
+
+    var(--danger-color);
+
+
+}
+
+
+
+
+
+/* ================================
+   MASTER ARENA
+================================ */
+
+
+
+.coding-container {
+
+
+    display:flex;
+
+
+    flex-direction:column;
+
+
+    gap:
+
+    15px;
+
+
+}
+
+
+
+
+/* Problem Box */
+
+
+.problem-box {
+
+
+    background:
+
+    rgba(108,92,231,0.08);
+
+
+    padding:
+
+    20px;
+
+
+    border-radius:
+
+    12px;
+
+
+}
+
+
+
+
+
+.problem-box h3 {
+
+
+    margin-bottom:
+
+    10px;
+
+
+}
+
+
+
+
+
+/* Python Editor */
+
+
+.code-editor {
+
+
+    width:
+
+    100%;
+
+
+    min-height:
+
+    250px;
+
+
+    resize:
+
+    vertical;
+
+
+    background:
+
+    #1e1e1e;
+
+
+    color:
+
+    #ffffff;
+
+
+    padding:
+
+    15px;
+
+
+    border-radius:
+
+    12px;
+
+
+    border:
+
+    2px solid #333;
+
+
+    font-family:
+
+    "Consolas",
+    monospace;
+
+
+    font-size:
+
+    1rem;
+
+
+}
+
+
+
+
+
+/* Code Action Buttons */
+
+
+.code-buttons {
+
+
+    display:flex;
+
+
+    justify-content:center;
+
+
+    gap:
+
+    15px;
+
+
+}
+
+
+
+
+.run-btn {
+
+
+    background:
+
+    var(--secondary-color);
+
+
+    color:white;
+
+
+}
+
+
+
+.submit-code-btn {
+
+
+    background:
+
+    var(--success-color);
+
+
+    color:white;
+
+
+}
+
+
+
+
+
+/* ================================
+   PYTHON OUTPUT WINDOW
+================================ */
+
+
+
+.output-box {
+
+
+    min-height:
+
+    120px;
+
+
+    background:
+
+    #111;
+
+
+    color:
+
+    #00ff99;
+
+
+    padding:
+
+    15px;
+
+
+    border-radius:
+
+    10px;
+
+
+    font-family:
+
+    monospace;
+
+
+    overflow:auto;
+
+
+}
+
+
+
+
+
+.output-title {
+
+
+    color:
+
+    var(--light-text);
+
+
+    font-weight:
+
+    bold;
+
+
+}
+
+
+
+
+
+/* ================================
+   BATTLE COMPLETE SCREEN
+================================ */
+
+
+.victory-screen {
+
+
+    text-align:center;
+
+
+    padding:
+
+    40px;
+
+
+}
+
+
+
+.victory-screen h1 {
+
+
+    font-size:
+
+    2.5rem;
+
+
+    color:
+
+    var(--success-color);
+
+
+}
+
+
+
+
+
+.defeat-screen {
+
+
+    text-align:center;
+
+
+    padding:
+
+    40px;
+
+
+}
+
+
+
+.defeat-screen h1 {
+
+
+    color:
+
+    var(--danger-color);
+
+
+}
+
+
+
+
+
+/* ================================
+   LOADING EFFECT
+================================ */
+
+
+.loading {
+
+
+    text-align:center;
+
+
+    font-size:
+
+    1.3rem;
+
+
+    animation:
+
+    loadingPulse 1.5s infinite;
+
+
+}
+
+
+
+
+@keyframes loadingPulse {
+
+
+    0% {
+
+        opacity:0.5;
+
+    }
+
+
+    50% {
+
+        opacity:1;
+
+    }
+
+
+    100% {
+
+        opacity:0.5;
+
+    }
+
+}
