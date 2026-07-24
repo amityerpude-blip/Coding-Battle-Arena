@@ -1,0 +1,578 @@
+/* =====================================================
+   CODING BATTLE ARENA
+   Main Component Styling
+   Version: 1.0
+===================================================== */
+
+
+/* ================================
+   LOGO STYLE
+================================ */
+
+.logo {
+
+    color: var(--primary-color);
+
+    text-shadow:
+
+    0 2px 5px rgba(0,0,0,0.15);
+
+}
+
+
+
+
+
+/* ================================
+   KINGDOM ITEMS
+================================ */
+
+
+.kingdom {
+
+    font-size:1rem;
+
+    font-weight:600;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:8px;
+
+}
+
+
+
+.kingdom::first-letter {
+
+    font-size:1.3rem;
+
+}
+
+
+
+/* Completed Kingdom */
+
+.kingdom.completed {
+
+
+    border-left:
+
+    5px solid var(--success-color);
+
+
+}
+
+
+
+/* Locked Kingdom */
+
+.kingdom.locked {
+
+
+    opacity:0.6;
+
+
+    cursor:not-allowed;
+
+
+}
+
+
+
+/* ================================
+   BATTLE AREA
+================================ */
+
+
+.battle-card {
+
+
+    position:relative;
+
+
+}
+
+
+
+.battle-card::before {
+
+
+    content:"⚔️";
+
+
+    position:absolute;
+
+
+    top:15px;
+
+
+    right:20px;
+
+
+    font-size:2rem;
+
+
+    opacity:0.25;
+
+
+}
+
+
+
+
+
+/* ================================
+   QUESTION STYLE
+================================ */
+
+
+#questionText {
+
+
+    background:
+
+    rgba(108,92,231,0.08);
+
+
+    padding:
+
+    18px;
+
+
+    border-radius:
+
+    12px;
+
+
+}
+
+
+
+
+
+/* ================================
+   MCQ OPTIONS
+================================ */
+
+
+#optionsBox {
+
+
+    display:flex;
+
+
+    flex-direction:column;
+
+
+    gap:15px;
+
+
+    margin-top:20px;
+
+
+}
+
+
+
+
+
+.option {
+
+
+    width:100%;
+
+
+    text-align:left;
+
+
+    background:
+
+    var(--panel-bg);
+
+
+    color:
+
+    var(--text-color);
+
+
+    border:
+
+    2px solid var(--border-color);
+
+
+    padding:
+
+    15px;
+
+
+    font-size:
+
+    1.05rem;
+
+
+    transition:
+
+    var(--transition);
+
+
+}
+
+
+
+
+
+.option:hover {
+
+
+    border-color:
+
+    var(--primary-color);
+
+
+    background:
+
+    rgba(108,92,231,0.1);
+
+
+}
+
+
+
+
+
+.option.selected {
+
+
+    background:
+
+    var(--primary-color);
+
+
+    color:white;
+
+
+}
+
+
+
+
+
+.option.correct {
+
+
+    background:
+
+    var(--success-color);
+
+
+    color:white;
+
+
+}
+
+
+
+
+
+.option.wrong {
+
+
+    background:
+
+    var(--danger-color);
+
+
+    color:white;
+
+
+}
+
+
+
+
+
+/* ================================
+   SUBMIT BUTTON
+================================ */
+
+
+#submitBtn {
+
+
+    display:block;
+
+
+    margin:
+
+    30px auto 0;
+
+
+    background:
+
+    var(--battle-color);
+
+
+    color:white;
+
+
+    font-size:
+
+    1.1rem;
+
+
+    font-weight:
+
+    bold;
+
+
+    padding:
+
+    12px 35px;
+
+
+}
+
+
+
+#submitBtn:hover {
+
+
+    box-shadow:
+
+    0 5px 15px rgba(225,112,85,0.4);
+
+
+}
+
+
+
+
+
+/* ================================
+   FOOTER STATS
+================================ */
+
+
+.game-footer div {
+
+
+    padding:
+
+    8px 15px;
+
+
+    border-radius:
+
+    10px;
+
+
+    background:
+
+    rgba(108,92,231,0.08);
+
+
+}
+
+
+
+
+
+#xp {
+
+
+    color:
+
+    #e1b12c;
+
+
+}
+
+
+
+#coins {
+
+
+    color:
+
+    #f39c12;
+
+
+}
+
+
+
+#progress {
+
+
+    color:
+
+    var(--success-color);
+
+
+}
+
+
+
+
+
+/* ================================
+   LIFE DISPLAY
+================================ */
+
+
+.lives {
+
+
+    letter-spacing:
+
+    5px;
+
+
+    animation:
+
+    lifePulse 2s infinite;
+
+
+}
+
+
+
+@keyframes lifePulse {
+
+
+    0% {
+
+
+        transform:scale(1);
+
+
+    }
+
+
+    50% {
+
+
+        transform:scale(1.05);
+
+
+    }
+
+
+    100% {
+
+
+        transform:scale(1);
+
+
+    }
+
+
+}
+
+
+
+
+
+/* ================================
+   RESULT MESSAGE
+================================ */
+
+
+.result-box {
+
+
+    text-align:center;
+
+
+    padding:
+
+    25px;
+
+
+    border-radius:
+
+    15px;
+
+
+    margin-top:
+
+    20px;
+
+
+    font-size:
+
+    1.2rem;
+
+
+}
+
+
+
+
+
+.result-success {
+
+
+    background:
+
+    rgba(0,184,148,0.15);
+
+
+}
+
+
+
+.result-fail {
+
+
+    background:
+
+    rgba(214,48,49,0.15);
+
+
+}
+
+
+
+
+
+/* ================================
+   BADGES
+================================ */
+
+
+.badge {
+
+
+    display:inline-block;
+
+
+    padding:
+
+    8px 15px;
+
+
+    border-radius:
+
+    20px;
+
+
+    background:
+
+    var(--primary-color);
+
+
+    color:white;
+
+
+    margin:
+
+    5px;
+
+
+    font-weight:bold;
+
+
+}
