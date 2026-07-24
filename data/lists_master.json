@@ -1,0 +1,256 @@
+{
+  "topic": "Lists",
+  "totalChallenges": 25,
+  "challenges": [
+    {
+      "id": 1,
+      "difficulty": "Easy",
+      "title": "Create a List",
+      "question": "Create a list containing 10, 20, 30 and print it.",
+      "starter": "# Write your code here\n",
+      "expected": "[10, 20, 30]",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 2,
+      "difficulty": "Easy",
+      "title": "List Length",
+      "question": "Print the length of the list [5,10,15,20].",
+      "starter": "numbers=[5,10,15,20]\n",
+      "expected": "4",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 3,
+      "difficulty": "Easy",
+      "title": "Access First Element",
+      "question": "Print the first element of the list.",
+      "starter": "colors=['Red','Green','Blue']\n",
+      "expected": "Red",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 4,
+      "difficulty": "Easy",
+      "title": "Access Last Element",
+      "question": "Print the last element of the list.",
+      "starter": "colors=['Red','Green','Blue']\n",
+      "expected": "Blue",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 5,
+      "difficulty": "Easy",
+      "title": "Append Item",
+      "question": "Add 40 to the list and print it.",
+      "starter": "numbers=[10,20,30]\n",
+      "expected": "[10, 20, 30, 40]",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 6,
+      "difficulty": "Easy",
+      "title": "Insert Item",
+      "question": "Insert 15 at index 1.",
+      "starter": "numbers=[10,20,30]\n",
+      "expected": "[10, 15, 20, 30]",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 7,
+      "difficulty": "Easy",
+      "title": "Remove Item",
+      "question": "Remove 20 from the list.",
+      "starter": "numbers=[10,20,30]\n",
+      "expected": "[10, 30]",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 8,
+      "difficulty": "Easy",
+      "title": "Pop Last Item",
+      "question": "Remove the last element using pop() and print the list.",
+      "starter": "numbers=[10,20,30]\n",
+      "expected": "[10, 20]",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 9,
+      "difficulty": "Easy",
+      "title": "Sort List",
+      "question": "Sort the list in ascending order.",
+      "starter": "numbers=[40,10,30,20]\n",
+      "expected": "[10, 20, 30, 40]",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 10,
+      "difficulty": "Easy",
+      "title": "Reverse List",
+      "question": "Reverse the list.",
+      "starter": "numbers=[10,20,30,40]\n",
+      "expected": "[40, 30, 20, 10]",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 11,
+      "difficulty": "Easy",
+      "title": "Maximum Value",
+      "question": "Print the maximum value from the list.",
+      "starter": "numbers=[8,15,3,21,12]\n",
+      "expected": "21",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 12,
+      "difficulty": "Easy",
+      "title": "Minimum Value",
+      "question": "Print the minimum value from the list.",
+      "starter": "numbers=[8,15,3,21,12]\n",
+      "expected": "3",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 13,
+      "difficulty": "Easy",
+      "title": "Sum of List",
+      "question": "Print the sum of all elements.",
+      "starter": "numbers=[10,20,30,40]\n",
+      "expected": "100",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 14,
+      "difficulty": "Easy",
+      "title": "Count Elements",
+      "question": "Count how many times 2 appears.",
+      "starter": "numbers=[1,2,2,3,2]\n",
+      "expected": "3",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 15,
+      "difficulty": "Easy",
+      "title": "Find Index",
+      "question": "Find the index of 30.",
+      "starter": "numbers=[10,20,30,40]\n",
+      "expected": "2",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 16,
+      "difficulty": "Easy",
+      "title": "Loop Through List",
+      "question": "Print each element on a new line.",
+      "starter": "numbers=[5,10,15]\n",
+      "expected": "5\n10\n15",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 17,
+      "difficulty": "Easy",
+      "title": "Square Every Number",
+      "question": "Print the square of each number.",
+      "starter": "numbers=[1,2,3,4]\n",
+      "expected": "1\n4\n9\n16",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 18,
+      "difficulty": "Easy",
+      "title": "Even Numbers",
+      "question": "Print only even numbers from the list.",
+      "starter": "numbers=[1,2,3,4,5,6]\n",
+      "expected": "2\n4\n6",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 19,
+      "difficulty": "Easy",
+      "title": "Copy List",
+      "question": "Create a copy of the list and print it.",
+      "starter": "numbers=[10,20,30]\n",
+      "expected": "[10, 20, 30]",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 20,
+      "difficulty": "Easy",
+      "title": "Clear List",
+      "question": "Remove all elements from the list.",
+      "starter": "numbers=[1,2,3]\n",
+      "expected": "[]",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 21,
+      "difficulty": "Easy",
+      "title": "List Concatenation",
+      "question": "Join [1,2] and [3,4].",
+      "starter": "# Write your code here\n",
+      "expected": "[1, 2, 3, 4]",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 22,
+      "difficulty": "Easy",
+      "title": "List Repetition",
+      "question": "Repeat [1,2] three times.",
+      "starter": "# Write your code here\n",
+      "expected": "[1, 2, 1, 2, 1, 2]",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 23,
+      "difficulty": "Easy",
+      "title": "Check Membership",
+      "question": "Print True if 20 is present in the list.",
+      "starter": "numbers=[10,20,30]\n",
+      "expected": "True",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 24,
+      "difficulty": "Easy",
+      "title": "Nested List",
+      "question": "Print the value 5 from [[1,2],[3,4],[5,6]].",
+      "starter": "numbers=[[1,2],[3,4],[5,6]]\n",
+      "expected": "5",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 25,
+      "difficulty": "Easy",
+      "title": "List Master",
+      "question": "Print 'List Challenge Completed'.",
+      "starter": "# Write your code here\n",
+      "expected": "List Challenge Completed",
+      "xp": 20,
+      "coins": 10
+    }
+  ]
+}
