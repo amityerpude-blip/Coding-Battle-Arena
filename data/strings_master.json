@@ -1,0 +1,256 @@
+{
+  "topic": "Strings",
+  "totalChallenges": 25,
+  "challenges": [
+    {
+      "id": 1,
+      "difficulty": "Easy",
+      "title": "Print a String",
+      "question": "Print the string Hello Python.",
+      "starter": "# Write your code here\n",
+      "expected": "Hello Python",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 2,
+      "difficulty": "Easy",
+      "title": "String Length",
+      "question": "Print the length of the string 'Programming'.",
+      "starter": "text='Programming'\n",
+      "expected": "11",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 3,
+      "difficulty": "Easy",
+      "title": "Uppercase",
+      "question": "Convert 'python' into uppercase.",
+      "starter": "text='python'\n",
+      "expected": "PYTHON",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 4,
+      "difficulty": "Easy",
+      "title": "Lowercase",
+      "question": "Convert 'PYTHON' into lowercase.",
+      "starter": "text='PYTHON'\n",
+      "expected": "python",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 5,
+      "difficulty": "Easy",
+      "title": "Capitalize",
+      "question": "Capitalize the string 'welcome'.",
+      "starter": "text='welcome'\n",
+      "expected": "Welcome",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 6,
+      "difficulty": "Easy",
+      "title": "Reverse String",
+      "question": "Print the reverse of 'Python'.",
+      "starter": "text='Python'\n",
+      "expected": "nohtyP",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 7,
+      "difficulty": "Easy",
+      "title": "First Character",
+      "question": "Print the first character of 'Computer'.",
+      "starter": "text='Computer'\n",
+      "expected": "C",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 8,
+      "difficulty": "Easy",
+      "title": "Last Character",
+      "question": "Print the last character of 'Computer'.",
+      "starter": "text='Computer'\n",
+      "expected": "r",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 9,
+      "difficulty": "Easy",
+      "title": "String Slice",
+      "question": "Print the first four characters of 'Programming'.",
+      "starter": "text='Programming'\n",
+      "expected": "Prog",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 10,
+      "difficulty": "Easy",
+      "title": "Concatenate",
+      "question": "Join 'Hello' and 'World' with a space.",
+      "starter": "# Write your code here\n",
+      "expected": "Hello World",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 11,
+      "difficulty": "Easy",
+      "title": "Repeat String",
+      "question": "Print 'Hi' three times using an operator.",
+      "starter": "# Write your code here\n",
+      "expected": "HiHiHi",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 12,
+      "difficulty": "Easy",
+      "title": "Replace Text",
+      "question": "Replace 'Java' with 'Python' in 'I love Java'.",
+      "starter": "text='I love Java'\n",
+      "expected": "I love Python",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 13,
+      "difficulty": "Easy",
+      "title": "Count Characters",
+      "question": "Count how many times 'a' appears in 'banana'.",
+      "starter": "text='banana'\n",
+      "expected": "3",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 14,
+      "difficulty": "Easy",
+      "title": "Find Position",
+      "question": "Find the index of 't' in 'Python'.",
+      "starter": "text='Python'\n",
+      "expected": "2",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 15,
+      "difficulty": "Easy",
+      "title": "Split String",
+      "question": "Split 'red,green,blue' using comma.",
+      "starter": "text='red,green,blue'\n",
+      "expected": "['red', 'green', 'blue']",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 16,
+      "difficulty": "Easy",
+      "title": "Join Strings",
+      "question": "Join ['A','B','C'] using '-'.",
+      "starter": "# Write your code here\n",
+      "expected": "A-B-C",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 17,
+      "difficulty": "Easy",
+      "title": "Check Alphabet",
+      "question": "Print whether 'Python' contains only alphabets.",
+      "starter": "text='Python'\n",
+      "expected": "True",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 18,
+      "difficulty": "Easy",
+      "title": "Check Digits",
+      "question": "Print whether '12345' contains only digits.",
+      "starter": "text='12345'\n",
+      "expected": "True",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 19,
+      "difficulty": "Easy",
+      "title": "Remove Spaces",
+      "question": "Remove leading and trailing spaces from '  Python  '.",
+      "starter": "text='  Python  '\n",
+      "expected": "Python",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 20,
+      "difficulty": "Easy",
+      "title": "Swap Case",
+      "question": "Convert 'PyThOn' into opposite case.",
+      "starter": "text='PyThOn'\n",
+      "expected": "pYtHoN",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 21,
+      "difficulty": "Easy",
+      "title": "Count Vowels",
+      "question": "Count the vowels in 'education'.",
+      "starter": "text='education'\n",
+      "expected": "5",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 22,
+      "difficulty": "Easy",
+      "title": "Palindrome",
+      "question": "Check whether 'madam' is a palindrome.",
+      "starter": "text='madam'\n",
+      "expected": "True",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 23,
+      "difficulty": "Easy",
+      "title": "Formatted String",
+      "question": "Use an f-string to print 'My name is Amit'.",
+      "starter": "# Write your code here\n",
+      "expected": "My name is Amit",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 24,
+      "difficulty": "Easy",
+      "title": "Print Each Character",
+      "question": "Print each character of 'Code' on a new line.",
+      "starter": "text='Code'\n",
+      "expected": "C\no\nd\ne",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 25,
+      "difficulty": "Easy",
+      "title": "String Master",
+      "question": "Print 'String Challenge Completed'.",
+      "starter": "# Write your code here\n",
+      "expected": "String Challenge Completed",
+      "xp": 20,
+      "coins": 10
+    }
+  ]
+}
