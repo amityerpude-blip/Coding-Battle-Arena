@@ -1,0 +1,356 @@
+{
+  "topic": "Tuples",
+  "totalQuestions": 25,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "Easy",
+      "question": "Tuples are created using?",
+      "options": [
+        "[]",
+        "()",
+        "{}",
+        "<>"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 2,
+      "difficulty": "Easy",
+      "question": "Tuples are?",
+      "options": [
+        "Mutable",
+        "Immutable",
+        "Sortable only",
+        "Numeric"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 3,
+      "difficulty": "Easy",
+      "question": "Which function returns tuple length?",
+      "options": [
+        "size()",
+        "count()",
+        "len()",
+        "length()"
+      ],
+      "answer": 2,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 4,
+      "difficulty": "Easy",
+      "question": "Tuple indexing starts from?",
+      "options": [
+        "1",
+        "0",
+        "-1",
+        "Depends"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 5,
+      "difficulty": "Easy",
+      "question": "Negative index -1 refers to?",
+      "options": [
+        "First item",
+        "Last item",
+        "Middle item",
+        "None"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 6,
+      "difficulty": "Easy",
+      "question": "Which function creates a tuple?",
+      "options": [
+        "tuple()",
+        "makeTuple()",
+        "create()",
+        "list()"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 7,
+      "difficulty": "Easy",
+      "question": "Can a tuple contain different data types?",
+      "options": [
+        "No",
+        "Yes",
+        "Only numbers",
+        "Only strings"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 8,
+      "difficulty": "Easy",
+      "question": "Which operator concatenates tuples?",
+      "options": [
+        "+",
+        "-",
+        "*",
+        "/"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 9,
+      "difficulty": "Easy",
+      "question": "Which operator repeats a tuple?",
+      "options": [
+        "/",
+        "*",
+        "+",
+        "%"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 10,
+      "difficulty": "Easy",
+      "question": "Which method counts occurrences?",
+      "options": [
+        "count()",
+        "find()",
+        "index()",
+        "search()"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 11,
+      "difficulty": "Easy",
+      "question": "Which method returns item position?",
+      "options": [
+        "find()",
+        "locate()",
+        "index()",
+        "count()"
+      ],
+      "answer": 2,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 12,
+      "difficulty": "Easy",
+      "question": "A tuple can contain?",
+      "options": [
+        "Lists",
+        "Strings",
+        "Integers",
+        "All of these"
+      ],
+      "answer": 3,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 13,
+      "difficulty": "Easy",
+      "question": "Which keyword checks membership?",
+      "options": [
+        "inside",
+        "has",
+        "in",
+        "contains"
+      ],
+      "answer": 2,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 14,
+      "difficulty": "Easy",
+      "question": "Which tuple has one element?",
+      "options": [
+        "(5)",
+        "(5,)",
+        "[5]",
+        "{5}"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 15,
+      "difficulty": "Easy",
+      "question": "Can tuple items be modified?",
+      "options": [
+        "Yes",
+        "No",
+        "Sometimes",
+        "Only first"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 16,
+      "difficulty": "Easy",
+      "question": "Which is faster for fixed data?",
+      "options": [
+        "List",
+        "Tuple",
+        "Dictionary",
+        "Set"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 17,
+      "difficulty": "Easy",
+      "question": "Tuple slicing uses?",
+      "options": [
+        "()",
+        "[]",
+        "{}",
+        "<>"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 18,
+      "difficulty": "Easy",
+      "question": "len((1,2,3)) returns?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "1"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 19,
+      "difficulty": "Easy",
+      "question": "Nested tuple means?",
+      "options": [
+        "Tuple inside tuple",
+        "List in tuple only",
+        "Dictionary",
+        "Function"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 20,
+      "difficulty": "Easy",
+      "question": "Which built-in converts list to tuple?",
+      "options": [
+        "tuple()",
+        "list()",
+        "convert()",
+        "make()"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 21,
+      "difficulty": "Easy",
+      "question": "Which built-in converts tuple to list?",
+      "options": [
+        "tuple()",
+        "list()",
+        "array()",
+        "dict()"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 22,
+      "difficulty": "Easy",
+      "question": "Tuples are commonly used for?",
+      "options": [
+        "Changing data",
+        "Fixed data",
+        "Deleting items",
+        "Sorting only"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 23,
+      "difficulty": "Easy",
+      "question": "Which operator compares tuples?",
+      "options": [
+        "==",
+        "<>",
+        "=>",
+        "~="
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 24,
+      "difficulty": "Easy",
+      "question": "Can tuples be used as dictionary keys?",
+      "options": [
+        "No",
+        "Yes",
+        "Never",
+        "Only lists"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 25,
+      "difficulty": "Easy",
+      "question": "Tuple elements are separated by?",
+      "options": [
+        "Semicolon",
+        "Comma",
+        "Colon",
+        "Space"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    }
+  ]
+}

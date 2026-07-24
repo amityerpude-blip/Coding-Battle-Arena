@@ -1,0 +1,356 @@
+{
+  "topic": "Loops",
+  "totalQuestions": 25,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "Easy",
+      "question": "Which loop repeats a fixed number of times?",
+      "options": [
+        "while",
+        "repeat",
+        "for",
+        "loop"
+      ],
+      "answer": 2,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 2,
+      "difficulty": "Easy",
+      "question": "Which loop works based on a condition?",
+      "options": [
+        "for",
+        "while",
+        "switch",
+        "case"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 3,
+      "difficulty": "Easy",
+      "question": "Which keyword exits a loop immediately?",
+      "options": [
+        "skip",
+        "continue",
+        "break",
+        "exit"
+      ],
+      "answer": 2,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 4,
+      "difficulty": "Easy",
+      "question": "Which keyword skips the current iteration?",
+      "options": [
+        "pass",
+        "break",
+        "continue",
+        "return"
+      ],
+      "answer": 2,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 5,
+      "difficulty": "Easy",
+      "question": "Which function is commonly used with for loop for numbers?",
+      "options": [
+        "range()",
+        "list()",
+        "len()",
+        "input()"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 6,
+      "difficulty": "Easy",
+      "question": "range(5) generates how many numbers?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "0"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 7,
+      "difficulty": "Easy",
+      "question": "What is the first value of range(5)?",
+      "options": [
+        "0",
+        "1",
+        "5",
+        "-1"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 8,
+      "difficulty": "Easy",
+      "question": "Which loop may execute zero times?",
+      "options": [
+        "for",
+        "while",
+        "Both",
+        "None"
+      ],
+      "answer": 2,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 9,
+      "difficulty": "Easy",
+      "question": "Which loop is best when iterations are known?",
+      "options": [
+        "while",
+        "for",
+        "if",
+        "switch"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 10,
+      "difficulty": "Easy",
+      "question": "Infinite loop occurs when?",
+      "options": [
+        "Condition never becomes False",
+        "Syntax error",
+        "Using break",
+        "Using range"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 11,
+      "difficulty": "Easy",
+      "question": "Which statement is correct?",
+      "options": [
+        "for uses condition only",
+        "while uses condition",
+        "for cannot use range",
+        "while cannot repeat"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 12,
+      "difficulty": "Easy",
+      "question": "range(2,6) ends at?",
+      "options": [
+        "5",
+        "6",
+        "4",
+        "7"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 13,
+      "difficulty": "Easy",
+      "question": "range(1,10,2) gives?",
+      "options": [
+        "1 3 5 7 9",
+        "2 4 6 8",
+        "1 2 3",
+        "0 2 4"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 14,
+      "difficulty": "Easy",
+      "question": "Which symbol starts a loop block?",
+      "options": [
+        "{}",
+        "()",
+        " :",
+        ":"
+      ],
+      "answer": 3,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 15,
+      "difficulty": "Easy",
+      "question": "Indentation in loops is?",
+      "options": [
+        "Optional",
+        "Required",
+        "Ignored",
+        "Deprecated"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 16,
+      "difficulty": "Easy",
+      "question": "Nested loop means?",
+      "options": [
+        "Loop inside loop",
+        "If inside loop",
+        "Loop after loop",
+        "Function"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 17,
+      "difficulty": "Easy",
+      "question": "Which keyword does nothing?",
+      "options": [
+        "continue",
+        "break",
+        "pass",
+        "return"
+      ],
+      "answer": 2,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 18,
+      "difficulty": "Easy",
+      "question": "How many times does for i in range(3) run?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "1"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 19,
+      "difficulty": "Easy",
+      "question": "Which loop is suitable for reading until EOF?",
+      "options": [
+        "for",
+        "while",
+        "if",
+        "None"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 20,
+      "difficulty": "Easy",
+      "question": "break transfers control to?",
+      "options": [
+        "Loop start",
+        "Next statement after loop",
+        "Function",
+        "if"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 21,
+      "difficulty": "Easy",
+      "question": "continue transfers control to?",
+      "options": [
+        "Program end",
+        "Next iteration",
+        "Previous iteration",
+        "Function"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 22,
+      "difficulty": "Easy",
+      "question": "Which loop can iterate over a list?",
+      "options": [
+        "for",
+        "while",
+        "Both",
+        "None"
+      ],
+      "answer": 2,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 23,
+      "difficulty": "Easy",
+      "question": "range(5,0,-1) starts with?",
+      "options": [
+        "0",
+        "1",
+        "5",
+        "4"
+      ],
+      "answer": 2,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 24,
+      "difficulty": "Easy",
+      "question": "Which value is not included in range(start,stop)?",
+      "options": [
+        "start",
+        "middle",
+        "stop",
+        "step"
+      ],
+      "answer": 2,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 25,
+      "difficulty": "Easy",
+      "question": "Which keyword is used to create loops?",
+      "options": [
+        "for and while",
+        "if",
+        "def",
+        "class"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    }
+  ]
+}

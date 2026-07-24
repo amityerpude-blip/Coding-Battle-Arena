@@ -1,0 +1,256 @@
+{
+  "topic": "If Else",
+  "totalChallenges": 25,
+  "challenges": [
+    {
+      "id": 1,
+      "difficulty": "Easy",
+      "title": "Positive or Negative",
+      "question": "Write a program that stores number=5 and prints 'Positive' if it is greater than 0 otherwise 'Negative'.",
+      "starter": "num=5\n",
+      "expected": "Positive",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 2,
+      "difficulty": "Easy",
+      "title": "Even or Odd",
+      "question": "Store num=8 and print 'Even' if divisible by 2 otherwise 'Odd'.",
+      "starter": "num=8\n",
+      "expected": "Even",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 3,
+      "difficulty": "Easy",
+      "title": "Greatest of Two",
+      "question": "Store a=10, b=20 and print the greater value.",
+      "starter": "a=10\nb=20\n",
+      "expected": "20",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 4,
+      "difficulty": "Easy",
+      "title": "Eligible to Vote",
+      "question": "Store age=20 and print 'Eligible' if age>=18 else 'Not Eligible'.",
+      "starter": "age=20\n",
+      "expected": "Eligible",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 5,
+      "difficulty": "Easy",
+      "title": "Pass or Fail",
+      "question": "Store marks=35 and print 'Pass' if marks>=33 else 'Fail'.",
+      "starter": "marks=35\n",
+      "expected": "Pass",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 6,
+      "difficulty": "Easy",
+      "title": "Leap Hint",
+      "question": "Store year=2024 and print 'Leap Year' if divisible by 4 else 'Not Leap Year'.",
+      "starter": "year=2024\n",
+      "expected": "Leap Year",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 7,
+      "difficulty": "Easy",
+      "title": "Divisible by 5",
+      "question": "Store num=25 and print Yes if divisible by 5 else No.",
+      "starter": "num=25\n",
+      "expected": "Yes",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 8,
+      "difficulty": "Easy",
+      "title": "Largest of Three",
+      "question": "Store a=5,b=9,c=7 and print the largest.",
+      "starter": "a=5\nb=9\nc=7\n",
+      "expected": "9",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 9,
+      "difficulty": "Easy",
+      "title": "Smallest of Two",
+      "question": "Store a=3,b=8 and print the smaller value.",
+      "starter": "a=3\nb=8\n",
+      "expected": "3",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 10,
+      "difficulty": "Easy",
+      "title": "Adult Check",
+      "question": "Store age=16 and print 'Minor' if age<18 else 'Adult'.",
+      "starter": "age=16\n",
+      "expected": "Minor",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 11,
+      "difficulty": "Easy",
+      "title": "Zero Check",
+      "question": "Store num=0 and print 'Zero' if num==0 else 'Non Zero'.",
+      "starter": "num=0\n",
+      "expected": "Zero",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 12,
+      "difficulty": "Easy",
+      "title": "Multiple of 10",
+      "question": "Store num=40 and print Yes if multiple of 10 else No.",
+      "starter": "num=40\n",
+      "expected": "Yes",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 13,
+      "difficulty": "Easy",
+      "title": "Temperature",
+      "question": "Store temp=32 and print 'Hot' if temp>30 else 'Cool'.",
+      "starter": "temp=32\n",
+      "expected": "Hot",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 14,
+      "difficulty": "Easy",
+      "title": "Profit",
+      "question": "Store profit=100 and print 'Profit' if profit>0 else 'Loss'.",
+      "starter": "profit=100\n",
+      "expected": "Profit",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 15,
+      "difficulty": "Easy",
+      "title": "Discount",
+      "question": "Store amount=1200 and print 'Discount' if amount>=1000 else 'No Discount'.",
+      "starter": "amount=1200\n",
+      "expected": "Discount",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 16,
+      "difficulty": "Easy",
+      "title": "Alphabet",
+      "question": "Store ch='A' and print 'Uppercase' if uppercase else 'Lowercase'.",
+      "starter": "ch='A'\n",
+      "expected": "Uppercase",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 17,
+      "difficulty": "Easy",
+      "title": "Divisible by 3",
+      "question": "Store num=18 and print Yes if divisible by 3 else No.",
+      "starter": "num=18\n",
+      "expected": "Yes",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 18,
+      "difficulty": "Easy",
+      "title": "Weekend",
+      "question": "Store day='Sunday' and print Weekend else Weekday.",
+      "starter": "day='Sunday'\n",
+      "expected": "Weekend",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 19,
+      "difficulty": "Easy",
+      "title": "Login",
+      "question": "Store password='python' and print Access Granted if password=='python'.",
+      "starter": "password='python'\n",
+      "expected": "Access Granted",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 20,
+      "difficulty": "Easy",
+      "title": "Number Compare",
+      "question": "Store x=7,y=7 and print Equal if same else Not Equal.",
+      "starter": "x=7\ny=7\n",
+      "expected": "Equal",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 21,
+      "difficulty": "Easy",
+      "title": "Sign",
+      "question": "Store num=-3 and print Negative/Positive/Zero.",
+      "starter": "num=-3\n",
+      "expected": "Negative",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 22,
+      "difficulty": "Easy",
+      "title": "Grade",
+      "question": "Store marks=82 and print A if >=80 else B.",
+      "starter": "marks=82\n",
+      "expected": "A",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 23,
+      "difficulty": "Easy",
+      "title": "Voting ID",
+      "question": "Store hasID=True and print Allowed if hasID else Denied.",
+      "starter": "hasID=True\n",
+      "expected": "Allowed",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 24,
+      "difficulty": "Easy",
+      "title": "Rain",
+      "question": "Store raining=False and print 'Take Umbrella' if raining else 'Enjoy Day'.",
+      "starter": "raining=False\n",
+      "expected": "Enjoy Day",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 25,
+      "difficulty": "Easy",
+      "title": "Final Challenge",
+      "question": "Store score=95 and print 'Excellent' if score>=90 else 'Good'.",
+      "starter": "score=95\n",
+      "expected": "Excellent",
+      "xp": 20,
+      "coins": 10
+    }
+  ]
+}

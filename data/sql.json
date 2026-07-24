@@ -1,0 +1,356 @@
+{
+  "topic": "SQL",
+  "totalQuestions": 25,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "Easy",
+      "question": "SQL stands for?",
+      "options": [
+        "Structured Query Language",
+        "Simple Query Language",
+        "Sequential Query Language",
+        "Standard Question Language"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 2,
+      "difficulty": "Easy",
+      "question": "SQL is mainly used for?",
+      "options": [
+        "Image editing",
+        "Database management",
+        "Game development",
+        "Networking"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 3,
+      "difficulty": "Easy",
+      "question": "Which command retrieves data?",
+      "options": [
+        "GET",
+        "SELECT",
+        "FETCH",
+        "SHOW"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 4,
+      "difficulty": "Easy",
+      "question": "Which command inserts new records?",
+      "options": [
+        "ADD",
+        "INSERT",
+        "APPEND",
+        "CREATE"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 5,
+      "difficulty": "Easy",
+      "question": "Which command modifies existing records?",
+      "options": [
+        "CHANGE",
+        "UPDATE",
+        "MODIFY",
+        "EDIT"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 6,
+      "difficulty": "Easy",
+      "question": "Which command deletes records?",
+      "options": [
+        "REMOVE",
+        "DELETE",
+        "DROP",
+        "CLEAR"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 7,
+      "difficulty": "Easy",
+      "question": "Which command creates a table?",
+      "options": [
+        "MAKE TABLE",
+        "CREATE TABLE",
+        "NEW TABLE",
+        "TABLE"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 8,
+      "difficulty": "Easy",
+      "question": "Which command removes a table permanently?",
+      "options": [
+        "DELETE TABLE",
+        "REMOVE TABLE",
+        "DROP TABLE",
+        "CLEAR TABLE"
+      ],
+      "answer": 2,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 9,
+      "difficulty": "Easy",
+      "question": "Which clause filters records?",
+      "options": [
+        "ORDER BY",
+        "WHERE",
+        "GROUP BY",
+        "HAVING"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 10,
+      "difficulty": "Easy",
+      "question": "Which clause sorts records?",
+      "options": [
+        "SORT BY",
+        "ORDER BY",
+        "GROUP BY",
+        "WHERE"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 11,
+      "difficulty": "Easy",
+      "question": "Which symbol is used for all columns?",
+      "options": [
+        "#",
+        "*",
+        "@",
+        "%"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 12,
+      "difficulty": "Easy",
+      "question": "Which SQL statement displays all rows from Student?",
+      "options": [
+        "SELECT * FROM Student;",
+        "SHOW Student;",
+        "GET Student;",
+        "DISPLAY Student;"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 13,
+      "difficulty": "Easy",
+      "question": "Primary key must be?",
+      "options": [
+        "Duplicate",
+        "Unique",
+        "Null",
+        "Optional"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 14,
+      "difficulty": "Easy",
+      "question": "Which keyword removes duplicate rows?",
+      "options": [
+        "UNIQUE",
+        "DISTINCT",
+        "ONLY",
+        "FILTER"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 15,
+      "difficulty": "Easy",
+      "question": "Which function counts records?",
+      "options": [
+        "TOTAL()",
+        "COUNT()",
+        "SUM()",
+        "NUMBER()"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 16,
+      "difficulty": "Easy",
+      "question": "Which function returns maximum value?",
+      "options": [
+        "TOP()",
+        "MAX()",
+        "HIGH()",
+        "BIG()"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 17,
+      "difficulty": "Easy",
+      "question": "Which function returns minimum value?",
+      "options": [
+        "LOW()",
+        "MIN()",
+        "SMALL()",
+        "BOTTOM()"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 18,
+      "difficulty": "Easy",
+      "question": "Which function calculates average?",
+      "options": [
+        "MEAN()",
+        "AVG()",
+        "AVERAGE()",
+        "MID()"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 19,
+      "difficulty": "Easy",
+      "question": "Which function calculates total?",
+      "options": [
+        "TOTAL()",
+        "ADD()",
+        "SUM()",
+        "COUNT()"
+      ],
+      "answer": 2,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 20,
+      "difficulty": "Easy",
+      "question": "Which clause groups rows?",
+      "options": [
+        "GROUP BY",
+        "ORDER BY",
+        "WHERE",
+        "HAVING"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 21,
+      "difficulty": "Easy",
+      "question": "HAVING is used with?",
+      "options": [
+        "SELECT",
+        "GROUP BY",
+        "DELETE",
+        "INSERT"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 22,
+      "difficulty": "Easy",
+      "question": "Which operator checks a range?",
+      "options": [
+        "BETWEEN",
+        "LIKE",
+        "IN",
+        "IS"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 23,
+      "difficulty": "Easy",
+      "question": "Which operator searches patterns?",
+      "options": [
+        "MATCH",
+        "LIKE",
+        "SEARCH",
+        "FIND"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 24,
+      "difficulty": "Easy",
+      "question": "Which command saves changes permanently?",
+      "options": [
+        "SAVE",
+        "COMMIT",
+        "STORE",
+        "END"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 25,
+      "difficulty": "Easy",
+      "question": "SQL databases store data in?",
+      "options": [
+        "Tables",
+        "Images",
+        "Programs",
+        "Folders"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    }
+  ]
+}

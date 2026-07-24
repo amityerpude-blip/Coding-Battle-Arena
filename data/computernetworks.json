@@ -1,0 +1,356 @@
+{
+  "topic": "Computer Networks",
+  "totalQuestions": 25,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "Easy",
+      "question": "A computer network is a collection of?",
+      "options": [
+        "Computers connected together",
+        "Printers only",
+        "Files",
+        "Programs"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 2,
+      "difficulty": "Easy",
+      "question": "Which device connects multiple computers in a LAN?",
+      "options": [
+        "Router",
+        "Switch",
+        "Modem",
+        "Scanner"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 3,
+      "difficulty": "Easy",
+      "question": "Which device connects different networks?",
+      "options": [
+        "Hub",
+        "Router",
+        "Monitor",
+        "Keyboard"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 4,
+      "difficulty": "Easy",
+      "question": "LAN stands for?",
+      "options": [
+        "Local Area Network",
+        "Long Area Network",
+        "Large Access Network",
+        "Linked Area Network"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 5,
+      "difficulty": "Easy",
+      "question": "WAN stands for?",
+      "options": [
+        "Wide Area Network",
+        "Wireless Area Network",
+        "Web Area Network",
+        "World Access Network"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 6,
+      "difficulty": "Easy",
+      "question": "MAN stands for?",
+      "options": [
+        "Metropolitan Area Network",
+        "Main Area Network",
+        "Medium Area Network",
+        "Multiple Area Network"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 7,
+      "difficulty": "Easy",
+      "question": "The Internet is an example of?",
+      "options": [
+        "LAN",
+        "MAN",
+        "WAN",
+        "PAN"
+      ],
+      "answer": 2,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 8,
+      "difficulty": "Easy",
+      "question": "Which protocol is mainly used to browse websites?",
+      "options": [
+        "FTP",
+        "HTTP",
+        "SMTP",
+        "POP3"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 9,
+      "difficulty": "Easy",
+      "question": "Which protocol is used to send emails?",
+      "options": [
+        "SMTP",
+        "HTTP",
+        "FTP",
+        "IMAP"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 10,
+      "difficulty": "Easy",
+      "question": "Which protocol is used to receive emails?",
+      "options": [
+        "SMTP",
+        "POP3",
+        "HTTP",
+        "FTP"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 11,
+      "difficulty": "Easy",
+      "question": "What is the full form of IP?",
+      "options": [
+        "Internet Protocol",
+        "Internal Program",
+        "Internet Process",
+        "Input Protocol"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 12,
+      "difficulty": "Easy",
+      "question": "IPv4 address contains?",
+      "options": [
+        "16 bits",
+        "32 bits",
+        "64 bits",
+        "128 bits"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 13,
+      "difficulty": "Easy",
+      "question": "Which protocol transfers files?",
+      "options": [
+        "FTP",
+        "HTTP",
+        "SMTP",
+        "DNS"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 14,
+      "difficulty": "Easy",
+      "question": "DNS stands for?",
+      "options": [
+        "Domain Name System",
+        "Data Network Service",
+        "Digital Name Server",
+        "Domain Network Source"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 15,
+      "difficulty": "Easy",
+      "question": "Which topology connects every device to a central hub?",
+      "options": [
+        "Bus",
+        "Ring",
+        "Star",
+        "Mesh"
+      ],
+      "answer": 2,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 16,
+      "difficulty": "Easy",
+      "question": "Which topology forms a closed loop?",
+      "options": [
+        "Bus",
+        "Star",
+        "Ring",
+        "Tree"
+      ],
+      "answer": 2,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 17,
+      "difficulty": "Easy",
+      "question": "Which topology uses a single backbone cable?",
+      "options": [
+        "Bus",
+        "Mesh",
+        "Ring",
+        "Star"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 18,
+      "difficulty": "Easy",
+      "question": "Which device converts digital to analog signals?",
+      "options": [
+        "Router",
+        "Switch",
+        "Modem",
+        "Hub"
+      ],
+      "answer": 2,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 19,
+      "difficulty": "Easy",
+      "question": "Which device broadcasts data to all ports?",
+      "options": [
+        "Hub",
+        "Router",
+        "Switch",
+        "Bridge"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 20,
+      "difficulty": "Easy",
+      "question": "WWW stands for?",
+      "options": [
+        "World Wide Web",
+        "World Web Window",
+        "Wide World Web",
+        "Web Wide World"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 21,
+      "difficulty": "Easy",
+      "question": "URL stands for?",
+      "options": [
+        "Uniform Resource Locator",
+        "Universal Resource Link",
+        "Uniform Record Locator",
+        "User Resource Locator"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 22,
+      "difficulty": "Easy",
+      "question": "Which network covers a small room or building?",
+      "options": [
+        "WAN",
+        "LAN",
+        "MAN",
+        "Internet"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 23,
+      "difficulty": "Easy",
+      "question": "Which cable is commonly used in Ethernet?",
+      "options": [
+        "Coaxial only",
+        "Twisted Pair",
+        "HDMI",
+        "USB"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 24,
+      "difficulty": "Easy",
+      "question": "Which address uniquely identifies a device on a network?",
+      "options": [
+        "IP Address",
+        "Password",
+        "URL",
+        "Hostname"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 25,
+      "difficulty": "Easy",
+      "question": "Which network device forwards packets based on IP address?",
+      "options": [
+        "Hub",
+        "Switch",
+        "Router",
+        "Repeater"
+      ],
+      "answer": 2,
+      "xp": 10,
+      "coins": 5
+    }
+  ]
+}

@@ -1,0 +1,356 @@
+{
+  "topic": "Strings",
+  "totalQuestions": 25,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "Easy",
+      "question": "Which function converts text to uppercase?",
+      "options": [
+        "upper()",
+        "capitalize()",
+        "lower()",
+        "title()"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 2,
+      "difficulty": "Easy",
+      "question": "Which function converts text to lowercase?",
+      "options": [
+        "upper()",
+        "lower()",
+        "swapcase()",
+        "case()"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 3,
+      "difficulty": "Easy",
+      "question": "Strings are enclosed in?",
+      "options": [
+        "[]",
+        "{}",
+        "Quotes",
+        "()"
+      ],
+      "answer": 2,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 4,
+      "difficulty": "Easy",
+      "question": "Strings in Python are?",
+      "options": [
+        "Mutable",
+        "Immutable",
+        "Numeric",
+        "Boolean"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 5,
+      "difficulty": "Easy",
+      "question": "Which function returns string length?",
+      "options": [
+        "count()",
+        "size()",
+        "len()",
+        "length()"
+      ],
+      "answer": 2,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 6,
+      "difficulty": "Easy",
+      "question": "Which operator joins strings?",
+      "options": [
+        "+",
+        "*",
+        "-",
+        "/"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 7,
+      "difficulty": "Easy",
+      "question": "Which operator repeats a string?",
+      "options": [
+        "/",
+        "*",
+        "+",
+        "%"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 8,
+      "difficulty": "Easy",
+      "question": "'Python'[0] returns?",
+      "options": [
+        "P",
+        "y",
+        "n",
+        "Error"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 9,
+      "difficulty": "Easy",
+      "question": "'Python'[-1] returns?",
+      "options": [
+        "P",
+        "n",
+        "o",
+        "Error"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 10,
+      "difficulty": "Easy",
+      "question": "Which method removes leading/trailing spaces?",
+      "options": [
+        "trim()",
+        "strip()",
+        "remove()",
+        "clean()"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 11,
+      "difficulty": "Easy",
+      "question": "Which method replaces text?",
+      "options": [
+        "change()",
+        "replace()",
+        "modify()",
+        "swap()"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 12,
+      "difficulty": "Easy",
+      "question": "Which method splits a string?",
+      "options": [
+        "join()",
+        "split()",
+        "slice()",
+        "cut()"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 13,
+      "difficulty": "Easy",
+      "question": "Which method joins a list into a string?",
+      "options": [
+        "join()",
+        "merge()",
+        "append()",
+        "split()"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 14,
+      "difficulty": "Easy",
+      "question": "Which method counts occurrences?",
+      "options": [
+        "find()",
+        "count()",
+        "index()",
+        "search()"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 15,
+      "difficulty": "Easy",
+      "question": "Which method finds first occurrence?",
+      "options": [
+        "find()",
+        "locate()",
+        "seek()",
+        "match()"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 16,
+      "difficulty": "Easy",
+      "question": "Which method returns index or error?",
+      "options": [
+        "find()",
+        "index()",
+        "count()",
+        "locate()"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 17,
+      "difficulty": "Easy",
+      "question": "Slicing syntax uses?",
+      "options": [
+        "()",
+        "[]",
+        "{}",
+        "<>"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 18,
+      "difficulty": "Easy",
+      "question": "Which slice gets first 3 chars?",
+      "options": [
+        "s[:3]",
+        "s[3:]",
+        "s[-3:]",
+        "s[1:3]"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 19,
+      "difficulty": "Easy",
+      "question": "Escape character is?",
+      "options": [
+        "#",
+        "\\",
+        "/",
+        "@"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 20,
+      "difficulty": "Easy",
+      "question": "Formatted strings commonly use?",
+      "options": [
+        "f''",
+        "% only",
+        "format only",
+        "None"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 21,
+      "difficulty": "Easy",
+      "question": "Which checks alphabetic characters?",
+      "options": [
+        "isdigit()",
+        "isalpha()",
+        "isalnum()",
+        "isspace()"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 22,
+      "difficulty": "Easy",
+      "question": "Which checks digits?",
+      "options": [
+        "isdigit()",
+        "isalpha()",
+        "islower()",
+        "isupper()"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 23,
+      "difficulty": "Easy",
+      "question": "Which checks alphanumeric?",
+      "options": [
+        "isalnum()",
+        "isdigit()",
+        "isalpha()",
+        "join()"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 24,
+      "difficulty": "Easy",
+      "question": "Which method capitalizes first letter?",
+      "options": [
+        "title()",
+        "capitalize()",
+        "upper()",
+        "casefold()"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 25,
+      "difficulty": "Easy",
+      "question": "Strings are sequence of?",
+      "options": [
+        "Numbers",
+        "Characters",
+        "Lists",
+        "Functions"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    }
+  ]
+}

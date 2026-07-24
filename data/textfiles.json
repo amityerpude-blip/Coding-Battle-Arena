@@ -1,0 +1,356 @@
+{
+  "topic": "Text Files",
+  "totalQuestions": 25,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "Easy",
+      "question": "Which function opens a file?",
+      "options": [
+        "read()",
+        "open()",
+        "write()",
+        "close()"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 2,
+      "difficulty": "Easy",
+      "question": "Which mode opens a file for reading?",
+      "options": [
+        "w",
+        "a",
+        "r",
+        "x"
+      ],
+      "answer": 2,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 3,
+      "difficulty": "Easy",
+      "question": "Which mode opens a file for writing?",
+      "options": [
+        "r",
+        "w",
+        "a",
+        "rb"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 4,
+      "difficulty": "Easy",
+      "question": "Which mode appends data?",
+      "options": [
+        "w",
+        "r",
+        "a",
+        "x"
+      ],
+      "answer": 2,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 5,
+      "difficulty": "Easy",
+      "question": "Which method reads entire file?",
+      "options": [
+        "read()",
+        "readline()",
+        "write()",
+        "append()"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 6,
+      "difficulty": "Easy",
+      "question": "Which method reads one line?",
+      "options": [
+        "read()",
+        "readline()",
+        "readlines()",
+        "line()"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 7,
+      "difficulty": "Easy",
+      "question": "Which method reads all lines as list?",
+      "options": [
+        "read()",
+        "readlines()",
+        "getline()",
+        "list()"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 8,
+      "difficulty": "Easy",
+      "question": "Which method writes text?",
+      "options": [
+        "write()",
+        "print()",
+        "append()",
+        "save()"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 9,
+      "difficulty": "Easy",
+      "question": "Which method closes a file?",
+      "options": [
+        "end()",
+        "close()",
+        "stop()",
+        "exit()"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 10,
+      "difficulty": "Easy",
+      "question": "What is the advantage of with statement?",
+      "options": [
+        "Auto closes file",
+        "Faster loops",
+        "Creates folder",
+        "Encrypts file"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 11,
+      "difficulty": "Easy",
+      "question": "Which mode creates file if not exists?",
+      "options": [
+        "w",
+        "r",
+        "rb",
+        "rt"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 12,
+      "difficulty": "Easy",
+      "question": "Which mode causes error if file missing?",
+      "options": [
+        "r",
+        "a",
+        "w",
+        "ab"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 13,
+      "difficulty": "Easy",
+      "question": "Text files generally use extension?",
+      "options": [
+        ".txt",
+        ".csv",
+        ".py",
+        ".exe"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 14,
+      "difficulty": "Easy",
+      "question": "Which exception may occur while opening missing file?",
+      "options": [
+        "ValueError",
+        "FileNotFoundError",
+        "TypeError",
+        "NameError"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 15,
+      "difficulty": "Easy",
+      "question": "File pointer indicates?",
+      "options": [
+        "File size",
+        "Current position",
+        "Extension",
+        "Permission"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 16,
+      "difficulty": "Easy",
+      "question": "Which method moves file pointer?",
+      "options": [
+        "seek()",
+        "tell()",
+        "move()",
+        "shift()"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 17,
+      "difficulty": "Easy",
+      "question": "Which method returns current pointer position?",
+      "options": [
+        "seek()",
+        "tell()",
+        "where()",
+        "position()"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 18,
+      "difficulty": "Easy",
+      "question": "Which mode opens for read and write?",
+      "options": [
+        "r+",
+        "w",
+        "a",
+        "rb"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 19,
+      "difficulty": "Easy",
+      "question": "Which mode truncates existing file?",
+      "options": [
+        "a",
+        "r",
+        "w",
+        "rb"
+      ],
+      "answer": 2,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 20,
+      "difficulty": "Easy",
+      "question": "Which method writes multiple lines?",
+      "options": [
+        "writelines()",
+        "writeall()",
+        "append()",
+        "println()"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 21,
+      "difficulty": "Easy",
+      "question": "Which newline character starts next line?",
+      "options": [
+        "\\t",
+        "\\n",
+        "\\r",
+        "\\b"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 22,
+      "difficulty": "Easy",
+      "question": "What does EOF mean?",
+      "options": [
+        "End Of File",
+        "End Of Folder",
+        "Error On File",
+        "Exit Open File"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 23,
+      "difficulty": "Easy",
+      "question": "Which loop is commonly used to read lines?",
+      "options": [
+        "for",
+        "if",
+        "while only",
+        "switch"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 24,
+      "difficulty": "Easy",
+      "question": "Opening a file returns?",
+      "options": [
+        "String",
+        "File object",
+        "Integer",
+        "Dictionary"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 25,
+      "difficulty": "Easy",
+      "question": "Which keyword is best for safe file handling?",
+      "options": [
+        "with",
+        "using",
+        "open",
+        "import"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    }
+  ]
+}

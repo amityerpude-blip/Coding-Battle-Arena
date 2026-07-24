@@ -1,0 +1,356 @@
+{
+  "topic": "CSV Files",
+  "totalQuestions": 25,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "Easy",
+      "question": "What does CSV stand for?",
+      "options": [
+        "Comma Separated Values",
+        "Character Separated Values",
+        "Column Stored Values",
+        "Common Separated Values"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 2,
+      "difficulty": "Easy",
+      "question": "CSV files usually have which extension?",
+      "options": [
+        ".txt",
+        ".csv",
+        ".xls",
+        ".json"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 3,
+      "difficulty": "Easy",
+      "question": "Which module is used to work with CSV files?",
+      "options": [
+        "os",
+        "csv",
+        "file",
+        "pandas"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 4,
+      "difficulty": "Easy",
+      "question": "Which function reads CSV rows?",
+      "options": [
+        "csv.read()",
+        "csv.reader()",
+        "csv.open()",
+        "csv.load()"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 5,
+      "difficulty": "Easy",
+      "question": "Which function writes CSV rows?",
+      "options": [
+        "csv.writer()",
+        "csv.write()",
+        "csv.output()",
+        "csv.file()"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 6,
+      "difficulty": "Easy",
+      "question": "Which method writes one row?",
+      "options": [
+        "writerow()",
+        "write()",
+        "row()",
+        "append()"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 7,
+      "difficulty": "Easy",
+      "question": "Which method writes multiple rows?",
+      "options": [
+        "writerows()",
+        "rows()",
+        "append()",
+        "writeall()"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 8,
+      "difficulty": "Easy",
+      "question": "Which class reads CSV into dictionaries?",
+      "options": [
+        "DictRead",
+        "DictReader",
+        "ReaderDict",
+        "CSVReader"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 9,
+      "difficulty": "Easy",
+      "question": "Which class writes dictionaries to CSV?",
+      "options": [
+        "DictWriter",
+        "WriterDict",
+        "CSVWriter",
+        "DictCSV"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 10,
+      "difficulty": "Easy",
+      "question": "Rows in a CSV file are separated by?",
+      "options": [
+        "New lines",
+        "Tabs",
+        "Spaces",
+        "Semicolons"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 11,
+      "difficulty": "Easy",
+      "question": "Values in a CSV row are usually separated by?",
+      "options": [
+        "Comma",
+        "Colon",
+        "Slash",
+        "Space"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 12,
+      "difficulty": "Easy",
+      "question": "Which parameter changes the separator?",
+      "options": [
+        "delimiter",
+        "separator",
+        "split",
+        "token"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 13,
+      "difficulty": "Easy",
+      "question": "Why is newline='' recommended while opening CSV files?",
+      "options": [
+        "Avoid blank lines",
+        "Increase speed",
+        "Encrypt data",
+        "Required for reading"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 14,
+      "difficulty": "Easy",
+      "question": "Which file mode is used to read CSV?",
+      "options": [
+        "r",
+        "w",
+        "a",
+        "x"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 15,
+      "difficulty": "Easy",
+      "question": "Which file mode is used to write CSV?",
+      "options": [
+        "r",
+        "w",
+        "rb",
+        "rt"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 16,
+      "difficulty": "Easy",
+      "question": "What is a header row?",
+      "options": [
+        "First row with column names",
+        "Last row",
+        "Empty row",
+        "Title only"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 17,
+      "difficulty": "Easy",
+      "question": "Which method writes the header using DictWriter?",
+      "options": [
+        "writeheader()",
+        "header()",
+        "writerow()",
+        "headers()"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 18,
+      "difficulty": "Easy",
+      "question": "CSV files mainly store?",
+      "options": [
+        "Tabular data",
+        "Images",
+        "Videos",
+        "Programs"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 19,
+      "difficulty": "Easy",
+      "question": "Which library can also read CSV easily?",
+      "options": [
+        "numpy",
+        "pandas",
+        "math",
+        "random"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 20,
+      "difficulty": "Easy",
+      "question": "Which pandas function reads CSV?",
+      "options": [
+        "read_excel()",
+        "read_csv()",
+        "open_csv()",
+        "csv_read()"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 21,
+      "difficulty": "Easy",
+      "question": "Which pandas method saves CSV?",
+      "options": [
+        "save_csv()",
+        "to_csv()",
+        "write_csv()",
+        "export_csv()"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 22,
+      "difficulty": "Easy",
+      "question": "CSV is best described as?",
+      "options": [
+        "Plain text format",
+        "Binary format",
+        "Executable",
+        "Database"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 23,
+      "difficulty": "Easy",
+      "question": "Can CSV contain multiple columns?",
+      "options": [
+        "No",
+        "Yes",
+        "Only two",
+        "Only numeric"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 24,
+      "difficulty": "Easy",
+      "question": "Which object is returned by csv.reader()?",
+      "options": [
+        "Iterator",
+        "Dictionary",
+        "String",
+        "Integer"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 25,
+      "difficulty": "Easy",
+      "question": "Which statement is true about CSV?",
+      "options": [
+        "Easy to exchange tabular data",
+        "Stores images",
+        "Compiles code",
+        "Creates databases"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    }
+  ]
+}

@@ -1,0 +1,356 @@
+{
+  "topic": "Functions",
+  "totalQuestions": 25,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "Easy",
+      "question": "Which keyword is used to define a function?",
+      "options": [
+        "func",
+        "define",
+        "def",
+        "function"
+      ],
+      "answer": 2,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 2,
+      "difficulty": "Easy",
+      "question": "Which statement calls a function?",
+      "options": [
+        "return",
+        "print",
+        "function_name()",
+        "def"
+      ],
+      "answer": 2,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 3,
+      "difficulty": "Easy",
+      "question": "A function may return a value using?",
+      "options": [
+        "break",
+        "pass",
+        "return",
+        "yield"
+      ],
+      "answer": 2,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 4,
+      "difficulty": "Easy",
+      "question": "Which keyword is used for anonymous functions?",
+      "options": [
+        "lambda",
+        "def",
+        "anon",
+        "func"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 5,
+      "difficulty": "Easy",
+      "question": "Functions help in?",
+      "options": [
+        "Code repetition",
+        "Code reuse",
+        "Compilation",
+        "Debugging only"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 6,
+      "difficulty": "Easy",
+      "question": "Default arguments are specified in?",
+      "options": [
+        "Function definition",
+        "Function call",
+        "Loop",
+        "Import"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 7,
+      "difficulty": "Easy",
+      "question": "A function without return returns?",
+      "options": [
+        "0",
+        "None",
+        "False",
+        "Error"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 8,
+      "difficulty": "Easy",
+      "question": "Parameters are?",
+      "options": [
+        "Values passed",
+        "Variables in definition",
+        "Output",
+        "Keywords"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 9,
+      "difficulty": "Easy",
+      "question": "Arguments are?",
+      "options": [
+        "Variables",
+        "Values passed during call",
+        "Loops",
+        "Modules"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 10,
+      "difficulty": "Easy",
+      "question": "Which function prints output?",
+      "options": [
+        "show()",
+        "display()",
+        "print()",
+        "echo()"
+      ],
+      "answer": 2,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 11,
+      "difficulty": "Easy",
+      "question": "Recursive function is?",
+      "options": [
+        "Calls itself",
+        "Calls another",
+        "Never ends",
+        "Built-in"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 12,
+      "difficulty": "Easy",
+      "question": "Built-in function example?",
+      "options": [
+        "sum()",
+        "myfun()",
+        "test()",
+        "demo()"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 13,
+      "difficulty": "Easy",
+      "question": "Which is user-defined?",
+      "options": [
+        "len()",
+        "print()",
+        "myFunction()",
+        "input()"
+      ],
+      "answer": 2,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 14,
+      "difficulty": "Easy",
+      "question": "How many times can a function be called?",
+      "options": [
+        "Once",
+        "Twice",
+        "Unlimited",
+        "Five"
+      ],
+      "answer": 2,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 15,
+      "difficulty": "Easy",
+      "question": "Which symbol encloses parameters?",
+      "options": [
+        "[]",
+        "{}",
+        "()",
+        "<>"
+      ],
+      "answer": 2,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 16,
+      "difficulty": "Easy",
+      "question": "Function body begins after?",
+      "options": [
+        ";",
+        "{",
+        ":",
+        "="
+      ],
+      "answer": 2,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 17,
+      "difficulty": "Easy",
+      "question": "Indentation inside function is?",
+      "options": [
+        "Optional",
+        "Required",
+        "Ignored",
+        "Deprecated"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 18,
+      "difficulty": "Easy",
+      "question": "Which keyword does nothing?",
+      "options": [
+        "pass",
+        "break",
+        "continue",
+        "stop"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 19,
+      "difficulty": "Easy",
+      "question": "Can a function return multiple values?",
+      "options": [
+        "No",
+        "Yes",
+        "Only two",
+        "Only strings"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 20,
+      "difficulty": "Easy",
+      "question": "Which function gets user input?",
+      "options": [
+        "scan()",
+        "accept()",
+        "input()",
+        "read()"
+      ],
+      "answer": 2,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 21,
+      "difficulty": "Easy",
+      "question": "Which built-in finds length?",
+      "options": [
+        "size()",
+        "count()",
+        "len()",
+        "measure()"
+      ],
+      "answer": 2,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 22,
+      "difficulty": "Easy",
+      "question": "What is scope?",
+      "options": [
+        "Variable visibility",
+        "Loop",
+        "Module",
+        "Package"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 23,
+      "difficulty": "Easy",
+      "question": "Local variable exists?",
+      "options": [
+        "Entire program",
+        "Inside function",
+        "Inside class only",
+        "Forever"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 24,
+      "difficulty": "Easy",
+      "question": "Global keyword is used for?",
+      "options": [
+        "Lists",
+        "Functions",
+        "Global variables",
+        "Loops"
+      ],
+      "answer": 2,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 25,
+      "difficulty": "Easy",
+      "question": "Function improves?",
+      "options": [
+        "Readability",
+        "Code reuse",
+        "Maintenance",
+        "All of these"
+      ],
+      "answer": 3,
+      "xp": 10,
+      "coins": 5
+    }
+  ]
+}

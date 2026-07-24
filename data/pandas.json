@@ -1,0 +1,356 @@
+{
+  "topic": "Pandas",
+  "totalQuestions": 25,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "Easy",
+      "question": "Which library is mainly used for data analysis in Python?",
+      "options": [
+        "numpy",
+        "pandas",
+        "turtle",
+        "pygame"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 2,
+      "difficulty": "Easy",
+      "question": "How do you usually import pandas?",
+      "options": [
+        "import pandas as pd",
+        "import pd",
+        "include pandas",
+        "using pandas"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 3,
+      "difficulty": "Easy",
+      "question": "Which function reads a CSV file?",
+      "options": [
+        "read_csv()",
+        "open_csv()",
+        "load_csv()",
+        "csv_read()"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 4,
+      "difficulty": "Easy",
+      "question": "Which function writes a DataFrame to CSV?",
+      "options": [
+        "save_csv()",
+        "write_csv()",
+        "to_csv()",
+        "export_csv()"
+      ],
+      "answer": 2,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 5,
+      "difficulty": "Easy",
+      "question": "A DataFrame is?",
+      "options": [
+        "1D structure",
+        "2D tabular structure",
+        "Tuple",
+        "Dictionary"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 6,
+      "difficulty": "Easy",
+      "question": "A Series is?",
+      "options": [
+        "2D table",
+        "1D labeled array",
+        "Dictionary",
+        "List"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 7,
+      "difficulty": "Easy",
+      "question": "Which attribute shows DataFrame columns?",
+      "options": [
+        "rows",
+        "columns",
+        "index",
+        "shape"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 8,
+      "difficulty": "Easy",
+      "question": "Which attribute returns rows and columns?",
+      "options": [
+        "size",
+        "shape",
+        "count",
+        "info"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 9,
+      "difficulty": "Easy",
+      "question": "Which function shows first 5 rows by default?",
+      "options": [
+        "head()",
+        "tail()",
+        "top()",
+        "show()"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 10,
+      "difficulty": "Easy",
+      "question": "Which function shows last 5 rows?",
+      "options": [
+        "bottom()",
+        "tail()",
+        "last()",
+        "end()"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 11,
+      "difficulty": "Easy",
+      "question": "Which function gives summary information?",
+      "options": [
+        "describe()",
+        "info()",
+        "summary()",
+        "details()"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 12,
+      "difficulty": "Easy",
+      "question": "Which function gives statistical summary?",
+      "options": [
+        "info()",
+        "describe()",
+        "stats()",
+        "mean()"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 13,
+      "difficulty": "Easy",
+      "question": "Which function returns column names?",
+      "options": [
+        "columns",
+        "labels",
+        "keys",
+        "header"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 14,
+      "difficulty": "Easy",
+      "question": "Which method selects a column?",
+      "options": [
+        "df('A')",
+        "df['A']",
+        "df.A()",
+        "select()"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 15,
+      "difficulty": "Easy",
+      "question": "Which function counts missing values?",
+      "options": [
+        "isnull().sum()",
+        "count()",
+        "missing()",
+        "null()"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 16,
+      "difficulty": "Easy",
+      "question": "Which method removes missing values?",
+      "options": [
+        "dropna()",
+        "remove()",
+        "delete()",
+        "clear()"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 17,
+      "difficulty": "Easy",
+      "question": "Which method fills missing values?",
+      "options": [
+        "fillna()",
+        "replace()",
+        "insert()",
+        "append()"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 18,
+      "difficulty": "Easy",
+      "question": "Which method sorts values?",
+      "options": [
+        "sort_values()",
+        "sort()",
+        "arrange()",
+        "order()"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 19,
+      "difficulty": "Easy",
+      "question": "Which method displays random rows?",
+      "options": [
+        "sample()",
+        "random()",
+        "pick()",
+        "choose()"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 20,
+      "difficulty": "Easy",
+      "question": "Which method returns DataFrame dimensions?",
+      "options": [
+        "shape",
+        "size",
+        "index",
+        "axes"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 21,
+      "difficulty": "Easy",
+      "question": "Which library is built on NumPy?",
+      "options": [
+        "math",
+        "pandas",
+        "random",
+        "csv"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 22,
+      "difficulty": "Easy",
+      "question": "Which object stores tabular data?",
+      "options": [
+        "Series",
+        "DataFrame",
+        "Tuple",
+        "Set"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 23,
+      "difficulty": "Easy",
+      "question": "Which function creates a Series?",
+      "options": [
+        "pd.Series()",
+        "pd.DataFrame()",
+        "series()",
+        "makeSeries()"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 24,
+      "difficulty": "Easy",
+      "question": "Which function creates a DataFrame?",
+      "options": [
+        "pd.Frame()",
+        "pd.DataFrame()",
+        "createFrame()",
+        "frame()"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 25,
+      "difficulty": "Easy",
+      "question": "Pandas is mainly used for?",
+      "options": [
+        "Game development",
+        "Data analysis",
+        "Networking",
+        "Graphics"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    }
+  ]
+}

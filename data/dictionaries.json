@@ -1,0 +1,356 @@
+{
+  "topic": "Dictionaries",
+  "totalQuestions": 25,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "Easy",
+      "question": "Which symbol creates a dictionary?",
+      "options": [
+        "()",
+        "[]",
+        "{}",
+        "<>"
+      ],
+      "answer": 2,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 2,
+      "difficulty": "Easy",
+      "question": "Dictionary stores data as?",
+      "options": [
+        "Values only",
+        "Keys only",
+        "Key-Value pairs",
+        "Indexes"
+      ],
+      "answer": 2,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 3,
+      "difficulty": "Easy",
+      "question": "Which method returns all keys?",
+      "options": [
+        "keys()",
+        "values()",
+        "items()",
+        "get()"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 4,
+      "difficulty": "Easy",
+      "question": "Which method returns all values?",
+      "options": [
+        "keys()",
+        "values()",
+        "items()",
+        "fetch()"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 5,
+      "difficulty": "Easy",
+      "question": "Which method returns key-value pairs?",
+      "options": [
+        "pair()",
+        "items()",
+        "values()",
+        "keys()"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 6,
+      "difficulty": "Easy",
+      "question": "Which method safely gets a value?",
+      "options": [
+        "value()",
+        "fetch()",
+        "get()",
+        "find()"
+      ],
+      "answer": 2,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 7,
+      "difficulty": "Easy",
+      "question": "Dictionary keys must be?",
+      "options": [
+        "Unique",
+        "Repeated",
+        "Lists",
+        "Mutable"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 8,
+      "difficulty": "Easy",
+      "question": "Dictionary values can repeat?",
+      "options": [
+        "No",
+        "Yes",
+        "Never",
+        "Only numbers"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 9,
+      "difficulty": "Easy",
+      "question": "Which method removes a key and returns its value?",
+      "options": [
+        "remove()",
+        "delete()",
+        "pop()",
+        "clear()"
+      ],
+      "answer": 2,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 10,
+      "difficulty": "Easy",
+      "question": "Which method removes all items?",
+      "options": [
+        "clear()",
+        "delete()",
+        "remove()",
+        "empty()"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 11,
+      "difficulty": "Easy",
+      "question": "Which operator checks key existence?",
+      "options": [
+        "contains",
+        "in",
+        "has",
+        "inside"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 12,
+      "difficulty": "Easy",
+      "question": "Which function returns dictionary length?",
+      "options": [
+        "size()",
+        "count()",
+        "len()",
+        "length()"
+      ],
+      "answer": 2,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 13,
+      "difficulty": "Easy",
+      "question": "How do you access value for key 'name'?",
+      "options": [
+        "d.name",
+        "d(name)",
+        "d['name']",
+        "d{name}"
+      ],
+      "answer": 2,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 14,
+      "difficulty": "Easy",
+      "question": "Which method updates dictionary?",
+      "options": [
+        "update()",
+        "append()",
+        "extend()",
+        "insert()"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 15,
+      "difficulty": "Easy",
+      "question": "Can dictionary values have different data types?",
+      "options": [
+        "No",
+        "Yes",
+        "Only strings",
+        "Only integers"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 16,
+      "difficulty": "Easy",
+      "question": "Dictionary is?",
+      "options": [
+        "Ordered in modern Python",
+        "Always unordered",
+        "Immutable",
+        "Numeric"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 17,
+      "difficulty": "Easy",
+      "question": "Nested dictionary means?",
+      "options": [
+        "Dictionary inside dictionary",
+        "List in dictionary",
+        "Tuple only",
+        "Loop"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 18,
+      "difficulty": "Easy",
+      "question": "Which function creates a dictionary?",
+      "options": [
+        "dict()",
+        "dictionary()",
+        "make()",
+        "create()"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 19,
+      "difficulty": "Easy",
+      "question": "Which loop is commonly used to traverse a dictionary?",
+      "options": [
+        "for",
+        "while",
+        "if",
+        "switch"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 20,
+      "difficulty": "Easy",
+      "question": "Which method removes the last inserted pair?",
+      "options": [
+        "pop()",
+        "popitem()",
+        "clear()",
+        "remove()"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 21,
+      "difficulty": "Easy",
+      "question": "Keys are usually?",
+      "options": [
+        "Mutable",
+        "Immutable",
+        "Lists",
+        "Dictionaries"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 22,
+      "difficulty": "Easy",
+      "question": "Dictionary indexing uses?",
+      "options": [
+        "Numbers only",
+        "Keys",
+        "Positions",
+        "Slices"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 23,
+      "difficulty": "Easy",
+      "question": "Which method adds multiple pairs from another dictionary?",
+      "options": [
+        "append()",
+        "merge()",
+        "update()",
+        "extend()"
+      ],
+      "answer": 2,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 24,
+      "difficulty": "Easy",
+      "question": "Which keyword deletes an entire dictionary variable?",
+      "options": [
+        "remove",
+        "erase",
+        "del",
+        "clear"
+      ],
+      "answer": 2,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 25,
+      "difficulty": "Easy",
+      "question": "Which data structure maps keys to values?",
+      "options": [
+        "Tuple",
+        "List",
+        "Dictionary",
+        "String"
+      ],
+      "answer": 2,
+      "xp": 10,
+      "coins": 5
+    }
+  ]
+}

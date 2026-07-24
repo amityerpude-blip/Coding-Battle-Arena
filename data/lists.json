@@ -1,0 +1,356 @@
+{
+  "topic": "Lists",
+  "totalQuestions": 25,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "Easy",
+      "question": "Which brackets are used to create a list?",
+      "options": [
+        "()",
+        "[]",
+        "{}",
+        "<>"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 2,
+      "difficulty": "Easy",
+      "question": "Lists are?",
+      "options": [
+        "Immutable",
+        "Mutable",
+        "Numeric",
+        "Boolean"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 3,
+      "difficulty": "Easy",
+      "question": "Which method adds an item at the end?",
+      "options": [
+        "insert()",
+        "append()",
+        "add()",
+        "extend()"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 4,
+      "difficulty": "Easy",
+      "question": "Which method inserts at a specific position?",
+      "options": [
+        "append()",
+        "insert()",
+        "index()",
+        "push()"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 5,
+      "difficulty": "Easy",
+      "question": "Which method removes the last item?",
+      "options": [
+        "delete()",
+        "remove()",
+        "pop()",
+        "clear()"
+      ],
+      "answer": 2,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 6,
+      "difficulty": "Easy",
+      "question": "Which method removes a specific value?",
+      "options": [
+        "pop()",
+        "remove()",
+        "delete()",
+        "discard()"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 7,
+      "difficulty": "Easy",
+      "question": "Which method removes all items?",
+      "options": [
+        "empty()",
+        "clear()",
+        "delete()",
+        "remove()"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 8,
+      "difficulty": "Easy",
+      "question": "Which method sorts a list?",
+      "options": [
+        "order()",
+        "arrange()",
+        "sort()",
+        "sortedlist()"
+      ],
+      "answer": 2,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 9,
+      "difficulty": "Easy",
+      "question": "Which function returns a sorted copy?",
+      "options": [
+        "sort()",
+        "sorted()",
+        "order()",
+        "listsort()"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 10,
+      "difficulty": "Easy",
+      "question": "Which method reverses a list?",
+      "options": [
+        "reverse()",
+        "invert()",
+        "flip()",
+        "back()"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 11,
+      "difficulty": "Easy",
+      "question": "Which method counts occurrences?",
+      "options": [
+        "find()",
+        "count()",
+        "index()",
+        "total()"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 12,
+      "difficulty": "Easy",
+      "question": "Which method returns index of an item?",
+      "options": [
+        "find()",
+        "locate()",
+        "index()",
+        "search()"
+      ],
+      "answer": 2,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 13,
+      "difficulty": "Easy",
+      "question": "List indexing starts from?",
+      "options": [
+        "0",
+        "1",
+        "-1",
+        "Depends"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 14,
+      "difficulty": "Easy",
+      "question": "Negative index -1 refers to?",
+      "options": [
+        "First item",
+        "Second item",
+        "Last item",
+        "Middle item"
+      ],
+      "answer": 2,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 15,
+      "difficulty": "Easy",
+      "question": "Which operator concatenates lists?",
+      "options": [
+        "+",
+        "*",
+        "-",
+        "/"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 16,
+      "difficulty": "Easy",
+      "question": "Which operator repeats a list?",
+      "options": [
+        "/",
+        "*",
+        "+",
+        "%"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 17,
+      "difficulty": "Easy",
+      "question": "Which keyword checks membership?",
+      "options": [
+        "contains",
+        "has",
+        "in",
+        "inside"
+      ],
+      "answer": 2,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 18,
+      "difficulty": "Easy",
+      "question": "len(list) returns?",
+      "options": [
+        "Largest value",
+        "Length",
+        "Index",
+        "Sum"
+      ],
+      "answer": 1,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 19,
+      "difficulty": "Easy",
+      "question": "A list can contain?",
+      "options": [
+        "Only integers",
+        "Only strings",
+        "Different data types",
+        "Only floats"
+      ],
+      "answer": 2,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 20,
+      "difficulty": "Easy",
+      "question": "Nested list means?",
+      "options": [
+        "List inside list",
+        "Tuple in list",
+        "Dictionary",
+        "Function"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 21,
+      "difficulty": "Easy",
+      "question": "Which slice gets first three items?",
+      "options": [
+        "L[:3]",
+        "L[3:]",
+        "L[-3:]",
+        "L[1:3]"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 22,
+      "difficulty": "Easy",
+      "question": "append() adds?",
+      "options": [
+        "One item",
+        "Many items only",
+        "Dictionary",
+        "Tuple"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 23,
+      "difficulty": "Easy",
+      "question": "extend() is used to?",
+      "options": [
+        "Join another iterable",
+        "Delete items",
+        "Reverse list",
+        "Copy list"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 24,
+      "difficulty": "Easy",
+      "question": "Which function creates a list from iterable?",
+      "options": [
+        "list()",
+        "make()",
+        "array()",
+        "create()"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 25,
+      "difficulty": "Easy",
+      "question": "Lists are commonly used to store?",
+      "options": [
+        "Collections of items",
+        "Functions",
+        "Modules",
+        "Classes"
+      ],
+      "answer": 0,
+      "xp": 10,
+      "coins": 5
+    }
+  ]
+}
