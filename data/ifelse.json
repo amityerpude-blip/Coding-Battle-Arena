@@ -153,229 +153,229 @@
       "coins": 5
     },
     {
-      "id": 11,
-      "difficulty": "Medium",
-      "question": "MCQ 11: if-elif-else concept/output/error finding.",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0,
-      "explanation": "exp",
-      "xp": 10,
-      "coins": 5
-    },
-    {
-      "id": 12,
-      "difficulty": "Medium",
-      "question": "MCQ 12: if-elif-else concept/output/error finding.",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0,
-      "explanation": "exp",
-      "xp": 10,
-      "coins": 5
-    },
-    {
-      "id": 13,
-      "difficulty": "Medium",
-      "question": "MCQ 13: if-elif-else concept/output/error finding.",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0,
-      "explanation": "exp",
-      "xp": 10,
-      "coins": 5
-    },
-    {
-      "id": 14,
-      "difficulty": "Medium",
-      "question": "MCQ 14: if-elif-else concept/output/error finding.",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0,
-      "explanation": "exp",
-      "xp": 10,
-      "coins": 5
-    },
-    {
-      "id": 15,
-      "difficulty": "Medium",
-      "question": "MCQ 15: if-elif-else concept/output/error finding.",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0,
-      "explanation": "exp",
-      "xp": 10,
-      "coins": 5
-    },
-    {
-      "id": 16,
-      "difficulty": "Medium",
-      "question": "MCQ 16: if-elif-else concept/output/error finding.",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0,
-      "explanation": "exp",
-      "xp": 10,
-      "coins": 5
-    },
-    {
-      "id": 17,
-      "difficulty": "Medium",
-      "question": "MCQ 17: if-elif-else concept/output/error finding.",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0,
-      "explanation": "exp",
-      "xp": 10,
-      "coins": 5
-    },
-    {
-      "id": 18,
-      "difficulty": "Medium",
-      "question": "MCQ 18: if-elif-else concept/output/error finding.",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0,
-      "explanation": "exp",
-      "xp": 10,
-      "coins": 5
-    },
-    {
-      "id": 19,
-      "difficulty": "Medium",
-      "question": "MCQ 19: if-elif-else concept/output/error finding.",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0,
-      "explanation": "exp",
-      "xp": 10,
-      "coins": 5
-    },
-    {
-      "id": 20,
-      "difficulty": "Medium",
-      "question": "MCQ 20: if-elif-else concept/output/error finding.",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0,
-      "explanation": "exp",
-      "xp": 10,
-      "coins": 5
-    },
-    {
-      "id": 21,
-      "difficulty": "Hard",
-      "question": "MCQ 21: if-elif-else concept/output/error finding.",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0,
-      "explanation": "exp",
-      "xp": 10,
-      "coins": 5
-    },
-    {
-      "id": 22,
-      "difficulty": "Hard",
-      "question": "MCQ 22: if-elif-else concept/output/error finding.",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0,
-      "explanation": "exp",
-      "xp": 10,
-      "coins": 5
-    },
-    {
-      "id": 23,
-      "difficulty": "Hard",
-      "question": "MCQ 23: if-elif-else concept/output/error finding.",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0,
-      "explanation": "exp",
-      "xp": 10,
-      "coins": 5
-    },
-    {
-      "id": 24,
-      "difficulty": "Hard",
-      "question": "MCQ 24: if-elif-else concept/output/error finding.",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0,
-      "explanation": "exp",
-      "xp": 10,
-      "coins": 5
-    },
-    {
-      "id": 25,
-      "difficulty": "Hard",
-      "question": "MCQ 25: if-elif-else concept/output/error finding.",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0,
-      "explanation": "exp",
-      "xp": 10,
-      "coins": 5
-    }
+  "id": 11,
+  "difficulty": "Medium",
+  "question": "What is the output?\nx = 15\nif x > 20:\n    print(\"A\")\nelif x > 10:\n    print(\"B\")\nelse:\n    print(\"C\")",
+  "options": [
+    "A",
+    "B",
+    "C",
+    "Error"
+  ],
+  "answer": 1,
+  "explanation": "15 is greater than 10 but not greater than 20, so 'B' is printed.",
+  "xp": 15,
+  "coins": 8
+},
+{
+  "id": 12,
+  "difficulty": "Medium",
+  "question": "Find the error.\nage = 18\nif age >= 18\n    print(\"Eligible\")",
+  "options": [
+    "Missing colon (:)",
+    "Wrong comparison operator",
+    "print() is incorrect",
+    "No Error"
+  ],
+  "answer": 0,
+  "explanation": "A colon (:) is required after the if condition.",
+  "xp": 15,
+  "coins": 8
+},
+{
+  "id": 13,
+  "difficulty": "Medium",
+  "question": "Fill in the blank.\nmarks = 75\n_____ marks >= 33:\n    print(\"Pass\")",
+  "options": [
+    "for",
+    "while",
+    "if",
+    "elif"
+  ],
+  "answer": 2,
+  "explanation": "The if keyword starts a conditional statement.",
+  "xp": 15,
+  "coins": 8
+},
+{
+  "id": 14,
+  "difficulty": "Medium",
+  "question": "What is the output?\nx = 5\nif x > 10:\n    print(\"A\")\nelse:\n    print(\"B\")",
+  "options": [
+    "A",
+    "B",
+    "Nothing",
+    "Error"
+  ],
+  "answer": 1,
+  "explanation": "Since 5 is not greater than 10, the else block executes.",
+  "xp": 15,
+  "coins": 8
+},
+{
+  "id": 15,
+  "difficulty": "Medium",
+  "question": "Which keyword is used to check multiple conditions one after another?",
+  "options": [
+    "else",
+    "elif",
+    "while",
+    "pass"
+  ],
+  "answer": 1,
+  "explanation": "elif allows checking additional conditions after if.",
+  "xp": 15,
+  "coins": 8
+},
+{
+  "id": 16,
+  "difficulty": "Hard",
+  "question": "What is the output?\na = 12\nif a % 2 == 0:\n    if a > 10:\n        print(\"Even & Greater\")\n    else:\n        print(\"Even\")",
+  "options": [
+    "Even",
+    "Even & Greater",
+    "Odd",
+    "Error"
+  ],
+  "answer": 1,
+  "explanation": "12 is even and greater than 10.",
+  "xp": 20,
+  "coins": 10
+},
+{
+  "id": 17,
+  "difficulty": "Hard",
+  "question": "What is the output?\nnum = -5\nif num > 0:\n    print(\"Positive\")\nelif num == 0:\n    print(\"Zero\")\nelse:\n    print(\"Negative\")",
+  "options": [
+    "Positive",
+    "Zero",
+    "Negative",
+    "Nothing"
+  ],
+  "answer": 2,
+  "explanation": "The number is less than zero.",
+  "xp": 20,
+  "coins": 10
+},
+{
+  "id": 18,
+  "difficulty": "Hard",
+  "question": "Which operator is used to check equality in an if condition?",
+  "options": [
+    "=",
+    "==",
+    "!=",
+    ":="
+  ],
+  "answer": 1,
+  "explanation": "== compares two values for equality.",
+  "xp": 20,
+  "coins": 10
+},
+{
+  "id": 19,
+  "difficulty": "Hard",
+  "question": "What is the output?\na = 8\nif a > 5 and a < 10:\n    print(\"Yes\")\nelse:\n    print(\"No\")",
+  "options": [
+    "Yes",
+    "No",
+    "Error",
+    "Nothing"
+  ],
+  "answer": 0,
+  "explanation": "Both conditions are True.",
+  "xp": 20,
+  "coins": 10
+},
+{
+  "id": 20,
+  "difficulty": "Hard",
+  "question": "What is the output?\na = 4\nif a > 10 or a % 2 == 0:\n    print(\"Accepted\")\nelse:\n    print(\"Rejected\")",
+  "options": [
+    "Accepted",
+    "Rejected",
+    "Nothing",
+    "Error"
+  ],
+  "answer": 0,
+  "explanation": "Although a > 10 is False, a is even, so the OR condition is True.",
+  "xp": 20,
+  "coins": 10
+},
+{
+  "id": 21,
+  "difficulty": "Hard",
+  "question": "Find the error.\nif x = 5:\n    print(x)",
+  "options": [
+    "Use == instead of =",
+    "print() is incorrect",
+    "Missing colon",
+    "No Error"
+  ],
+  "answer": 0,
+  "explanation": "Comparison uses ==, not =.",
+  "xp": 20,
+  "coins": 10
+},
+{
+  "id": 22,
+  "difficulty": "Hard",
+  "question": "Fill in the blank.\nage = 20\nif age >= 18:\n    print(\"Adult\")\n_____:\n    print(\"Minor\")",
+  "options": [
+    "elif",
+    "for",
+    "while",
+    "else"
+  ],
+  "answer": 3,
+  "explanation": "else executes when the if condition is False.",
+  "xp": 20,
+  "coins": 10
+},
+{
+  "id": 23,
+  "difficulty": "Hard",
+  "question": "What is the output?\nx = 10\nif x > 5:\n    print(\"A\")\nif x > 8:\n    print(\"B\")",
+  "options": [
+    "A",
+    "B",
+    "A B",
+    "Error"
+  ],
+  "answer": 2,
+  "explanation": "Both if statements are evaluated independently.",
+  "xp": 20,
+  "coins": 10
+},
+{
+  "id": 24,
+  "difficulty": "Hard",
+  "question": "Which statement is used when no action is required inside an if block?",
+  "options": [
+    "break",
+    "continue",
+    "pass",
+    "return"
+  ],
+  "answer": 2,
+  "explanation": "pass is a placeholder statement that performs no action.",
+  "xp": 20,
+  "coins": 10
+},
+{
+  "id": 25,
+  "difficulty": "Hard",
+  "question": "What is the output?\nx = 3\nif not (x > 5):\n    print(\"Valid\")\nelse:\n    print(\"Invalid\")",
+  "options": [
+    "Valid",
+    "Invalid",
+    "Nothing",
+    "Error"
+  ],
+  "answer": 0,
+  "explanation": "x > 5 is False, so not(False) becomes True.",
+  "xp": 20,
+  "coins": 10
+}
   ]
 }
