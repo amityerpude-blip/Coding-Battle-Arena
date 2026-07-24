@@ -1,0 +1,191 @@
+{
+  "topic": "Pickle Files",
+  "totalQuestions": 25,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which module is used for Pickle files in Python?",
+      "options": ["csv", "pickle", "os", "json"],
+      "answer": 1
+    },
+    {
+      "id": 2,
+      "question": "Pickle files store data in ______ format.",
+      "options": ["Text", "Binary", "CSV", "HTML"],
+      "answer": 1
+    },
+    {
+      "id": 3,
+      "question": "Which function is used to write an object into a Pickle file?",
+      "options": ["load()", "dump()", "write()", "save()"],
+      "answer": 1
+    },
+    {
+      "id": 4,
+      "question": "Which function is used to read data from a Pickle file?",
+      "options": ["read()", "load()", "fetch()", "dump()"],
+      "answer": 1
+    },
+    {
+      "id": 5,
+      "question": "Which mode is used to create a Pickle file?",
+      "options": ["w", "wb", "a", "rb"],
+      "answer": 1
+    },
+    {
+      "id": 6,
+      "question": "Which mode is used to read a Pickle file?",
+      "options": ["rb", "r", "wb", "w"],
+      "answer": 0
+    },
+    {
+      "id": 7,
+      "question": "Which statement imports the Pickle module?",
+      "options": ["import csv", "include pickle", "import pickle", "using pickle"],
+      "answer": 2
+    },
+    {
+      "id": 8,
+      "question": "Pickle can store which type of Python objects?",
+      "options": ["Only Lists", "Only Dictionaries", "Only Tuples", "Almost any Python object"],
+      "answer": 3
+    },
+    {
+      "id": 9,
+      "question": "Which file extension is commonly used for Pickle files?",
+      "options": [".txt", ".csv", ".dat", ".pkl"],
+      "answer": 3
+    },
+    {
+      "id": 10,
+      "question": "Pickle files are mainly used for:",
+      "options": ["Image editing", "Object serialization", "Drawing graphics", "Creating web pages"],
+      "answer": 1
+    },
+    {
+      "id": 11,
+      "question": "Serialization means:",
+      "options": [
+        "Deleting data",
+        "Converting Python objects into a byte stream",
+        "Sorting data",
+        "Displaying data"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 12,
+      "question": "Deserialization means:",
+      "options": [
+        "Reading text",
+        "Converting byte stream back into Python objects",
+        "Writing CSV",
+        "Deleting objects"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 13,
+      "question": "Which function converts a Pickle file back into an object?",
+      "options": ["dump()", "load()", "read()", "open()"],
+      "answer": 1
+    },
+    {
+      "id": 14,
+      "question": "Pickle files should be opened in:",
+      "options": ["Text Mode", "Binary Mode", "HTML Mode", "ASCII Mode"],
+      "answer": 1
+    },
+    {
+      "id": 15,
+      "question": "Which data structure can be stored in a Pickle file?",
+      "options": ["List", "Dictionary", "Tuple", "All of these"],
+      "answer": 3
+    },
+    {
+      "id": 16,
+      "question": "Which function opens a Pickle file?",
+      "options": ["open()", "file()", "create()", "read()"],
+      "answer": 0
+    },
+    {
+      "id": 17,
+      "question": "Pickle files are generally ______ readable.",
+      "options": ["Human", "Machine", "Browser", "Spreadsheet"],
+      "answer": 1
+    },
+    {
+      "id": 18,
+      "question": "Which library is NOT required while working with Pickle?",
+      "options": ["pickle", "os", "csv", "None of these"],
+      "answer": 3
+    },
+    {
+      "id": 19,
+      "question": "Which of the following is an advantage of Pickle files?",
+      "options": [
+        "Stores complex objects",
+        "Smaller file size",
+        "Faster loading",
+        "All of these"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 20,
+      "question": "Pickle files are commonly used to store:",
+      "options": [
+        "Student Records",
+        "Game Progress",
+        "Python Objects",
+        "All of these"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 21,
+      "question": "Which error may occur while reading a missing Pickle file?",
+      "options": [
+        "NameError",
+        "FileNotFoundError",
+        "SyntaxError",
+        "IndentationError"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 22,
+      "question": "Which keyword is commonly used with Pickle for safe file handling?",
+      "options": ["class", "def", "with", "while"],
+      "answer": 2
+    },
+    {
+      "id": 23,
+      "question": "What is the output of pickle.load()?",
+      "options": [
+        "Binary Data",
+        "Python Object",
+        "CSV Data",
+        "String"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 24,
+      "question": "Which function writes multiple Python objects one after another?",
+      "options": ["dump()", "append()", "write()", "save()"],
+      "answer": 0
+    },
+    {
+      "id": 25,
+      "question": "Which statement about Pickle is TRUE?",
+      "options": [
+        "Pickle stores objects in binary format.",
+        "Pickle stores only text.",
+        "Pickle cannot store lists.",
+        "Pickle works only with CSV files."
+      ],
+      "answer": 0
+    }
+  ]
+}
