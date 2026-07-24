@@ -1,0 +1,256 @@
+{
+  "topic": "Pickle Files",
+  "totalChallenges": 25,
+  "challenges": [
+    {
+      "id": 1,
+      "difficulty": "Easy",
+      "title": "Import Pickle",
+      "question": "Import the pickle module.",
+      "starter": "# Write your code here\n",
+      "expected": "Pickle Imported",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 2,
+      "difficulty": "Easy",
+      "title": "Create Pickle File",
+      "question": "Create student.dat and store a list [10,20,30] using pickle.",
+      "starter": "# Write your code here\n",
+      "expected": "File Created",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 3,
+      "difficulty": "Easy",
+      "title": "Read Pickle File",
+      "question": "Read and display the contents of student.dat.",
+      "starter": "# Write your code here\n",
+      "expected": "[10, 20, 30]",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 4,
+      "difficulty": "Easy",
+      "title": "Store Dictionary",
+      "question": "Store {'Name':'Amit','Marks':95} in a pickle file.",
+      "starter": "# Write your code here\n",
+      "expected": "Dictionary Stored",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 5,
+      "difficulty": "Easy",
+      "title": "Read Dictionary",
+      "question": "Read and display the dictionary from the pickle file.",
+      "starter": "# Write your code here\n",
+      "expected": "{'Name': 'Amit', 'Marks': 95}",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 6,
+      "difficulty": "Easy",
+      "title": "Store Tuple",
+      "question": "Store the tuple (10,20,30) in a pickle file.",
+      "starter": "# Write your code here\n",
+      "expected": "Tuple Stored",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 7,
+      "difficulty": "Easy",
+      "title": "Read Tuple",
+      "question": "Read and display the tuple from the pickle file.",
+      "starter": "# Write your code here\n",
+      "expected": "(10, 20, 30)",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 8,
+      "difficulty": "Easy",
+      "title": "Store Multiple Objects",
+      "question": "Store two Python objects in the same pickle file.",
+      "starter": "# Write your code here\n",
+      "expected": "Objects Stored",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 9,
+      "difficulty": "Easy",
+      "title": "Read Multiple Objects",
+      "question": "Read two objects from a pickle file.",
+      "starter": "# Write your code here\n",
+      "expected": "Objects Loaded",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 10,
+      "difficulty": "Easy",
+      "title": "Student Record",
+      "question": "Store one student record using a dictionary.",
+      "starter": "# Write your code here\n",
+      "expected": "Student Record Saved",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 11,
+      "difficulty": "Easy",
+      "title": "List of Students",
+      "question": "Store a list of three student dictionaries.",
+      "starter": "# Write your code here\n",
+      "expected": "3 Records Stored",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 12,
+      "difficulty": "Easy",
+      "title": "Display Student Records",
+      "question": "Read and display all student records.",
+      "starter": "# Write your code here\n",
+      "expected": "Student Records Displayed",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 13,
+      "difficulty": "Easy",
+      "title": "Search Student",
+      "question": "Search a student by name in the pickle file.",
+      "starter": "# Write your code here\n",
+      "expected": "Record Found",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 14,
+      "difficulty": "Easy",
+      "title": "Count Records",
+      "question": "Count the total number of student records.",
+      "starter": "# Write your code here\n",
+      "expected": "3",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 15,
+      "difficulty": "Easy",
+      "title": "Update Record",
+      "question": "Update the marks of a student and save again.",
+      "starter": "# Write your code here\n",
+      "expected": "Record Updated",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 16,
+      "difficulty": "Easy",
+      "title": "Delete Record",
+      "question": "Delete one student record from the pickle file.",
+      "starter": "# Write your code here\n",
+      "expected": "Record Deleted",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 17,
+      "difficulty": "Easy",
+      "title": "Maximum Marks",
+      "question": "Find the student with the highest marks.",
+      "starter": "# Write your code here\n",
+      "expected": "Highest Marks Displayed",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 18,
+      "difficulty": "Easy",
+      "title": "Average Marks",
+      "question": "Calculate the average marks of all students.",
+      "starter": "# Write your code here\n",
+      "expected": "Average Calculated",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 19,
+      "difficulty": "Easy",
+      "title": "Exception Handling",
+      "question": "Handle FileNotFoundError while reading a pickle file.",
+      "starter": "# Write your code here\n",
+      "expected": "Exception Handled",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 20,
+      "difficulty": "Easy",
+      "title": "Using with Statement",
+      "question": "Open a pickle file using the with statement.",
+      "starter": "# Write your code here\n",
+      "expected": "with Statement Used",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 21,
+      "difficulty": "Medium",
+      "title": "Backup Data",
+      "question": "Copy the contents of one pickle file to another.",
+      "starter": "# Write your code here\n",
+      "expected": "Backup Completed",
+      "xp": 25,
+      "coins": 15
+    },
+    {
+      "id": 22,
+      "difficulty": "Medium",
+      "title": "Sort Records",
+      "question": "Display student records sorted by marks.",
+      "starter": "# Write your code here\n",
+      "expected": "Sorted Records",
+      "xp": 25,
+      "coins": 15
+    },
+    {
+      "id": 23,
+      "difficulty": "Medium",
+      "title": "Topper Record",
+      "question": "Display the topper's record from the pickle file.",
+      "starter": "# Write your code here\n",
+      "expected": "Topper Displayed",
+      "xp": 25,
+      "coins": 15
+    },
+    {
+      "id": 24,
+      "difficulty": "Hard",
+      "title": "Mini Student Database",
+      "question": "Create a menu-driven student record system using pickle files.",
+      "starter": "# Write your code here\n",
+      "expected": "Database Created",
+      "xp": 35,
+      "coins": 20
+    },
+    {
+      "id": 25,
+      "difficulty": "Hard",
+      "title": "Pickle Master",
+      "question": "Print 'Pickle Challenge Completed'.",
+      "starter": "# Write your code here\n",
+      "expected": "Pickle Challenge Completed",
+      "xp": 50,
+      "coins": 30
+    }
+  ]
+}
