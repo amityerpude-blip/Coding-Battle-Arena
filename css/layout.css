@@ -1,0 +1,574 @@
+/* =====================================================
+   CODING BATTLE ARENA
+   Layout System
+   Version: 1.0
+===================================================== */
+
+
+/* ================================
+   HEADER
+================================ */
+
+
+.game-header {
+
+
+    height: 75px;
+
+
+    width:100%;
+
+
+    display:flex;
+
+
+    align-items:center;
+
+
+    justify-content:space-between;
+
+
+    padding:
+
+    0 25px;
+
+
+    background:
+
+    var(--panel-bg);
+
+
+    border-bottom:
+
+    1px solid var(--border-color);
+
+
+    box-shadow:
+
+    var(--shadow);
+
+
+}
+
+
+
+
+.logo {
+
+
+    font-size:
+
+    1.8rem;
+
+
+    font-weight:
+
+    800;
+
+
+}
+
+
+
+
+
+.player-info {
+
+
+    display:flex;
+
+
+    align-items:center;
+
+
+    gap:15px;
+
+
+}
+
+
+
+
+
+.player-info span {
+
+
+    background:
+
+    var(--card-bg);
+
+
+    padding:
+
+    8px 12px;
+
+
+    border-radius:
+
+    10px;
+
+
+    border:
+
+    1px solid var(--border-color);
+
+
+}
+
+
+
+
+
+.player-info button {
+
+
+    background:
+
+    var(--primary-color);
+
+
+    color:white;
+
+
+}
+
+
+
+
+
+/* ================================
+   MAIN CONTAINER
+================================ */
+
+
+.game-container {
+
+
+    display:flex;
+
+
+    height:
+
+    calc(100vh - 135px);
+
+
+    overflow:hidden;
+
+
+}
+
+
+
+
+
+/* ================================
+   KINGDOM MAP
+================================ */
+
+
+.kingdom-panel {
+
+
+    width:
+
+    260px;
+
+
+    background:
+
+    var(--panel-bg);
+
+
+    border-right:
+
+    1px solid var(--border-color);
+
+
+    padding:
+
+    20px;
+
+
+    overflow-y:auto;
+
+
+}
+
+
+
+
+.kingdom-panel h2 {
+
+
+    text-align:center;
+
+
+    margin-bottom:
+
+    20px;
+
+
+}
+
+
+
+
+
+#kingdomList {
+
+
+    list-style:none;
+
+
+}
+
+
+
+
+
+.kingdom {
+
+
+    padding:
+
+    12px;
+
+
+    margin-bottom:
+
+    10px;
+
+
+    border-radius:
+
+    12px;
+
+
+    cursor:pointer;
+
+
+    background:
+
+    var(--card-bg);
+
+
+    border:
+
+    1px solid var(--border-color);
+
+
+    transition:
+
+    var(--transition);
+
+
+}
+
+
+
+
+
+.kingdom:hover {
+
+
+    transform:
+
+    translateX(5px);
+
+
+    background:
+
+    var(--primary-color);
+
+
+    color:white;
+
+
+}
+
+
+
+
+
+.kingdom.active {
+
+
+    background:
+
+    var(--primary-color);
+
+
+    color:white;
+
+
+}
+
+
+
+
+
+/* ================================
+   BATTLE AREA
+================================ */
+
+
+.battle-area {
+
+
+    flex:1;
+
+
+    padding:
+
+    25px;
+
+
+    overflow-y:auto;
+
+
+    display:flex;
+
+
+    flex-direction:column;
+
+
+    align-items:center;
+
+
+}
+
+
+
+
+
+.battle-top {
+
+
+    width:
+
+    90%;
+
+
+    display:flex;
+
+
+    justify-content:space-between;
+
+
+    align-items:center;
+
+
+    margin-bottom:
+
+    20px;
+
+
+}
+
+
+
+
+.lives {
+
+
+    font-size:
+
+    1.8rem;
+
+
+}
+
+
+
+
+
+.progress {
+
+
+    background:
+
+    var(--card-bg);
+
+
+    padding:
+
+    10px 18px;
+
+
+    border-radius:
+
+    10px;
+
+
+    border:
+
+    1px solid var(--border-color);
+
+
+}
+
+
+
+
+
+/* ================================
+   BATTLE CARD
+================================ */
+
+
+.battle-card {
+
+
+    width:
+
+    90%;
+
+
+    min-height:
+
+    450px;
+
+
+    background:
+
+    var(--card-bg);
+
+
+    border-radius:
+
+    var(--radius);
+
+
+    box-shadow:
+
+    var(--shadow);
+
+
+    padding:
+
+    30px;
+
+
+    border:
+
+    1px solid var(--border-color);
+
+
+}
+
+
+
+
+.battle-card h2 {
+
+
+    text-align:center;
+
+
+    margin-bottom:
+
+    20px;
+
+
+}
+
+
+
+
+
+#questionText {
+
+
+    font-size:
+
+    1.2rem;
+
+
+    line-height:
+
+    1.6;
+
+
+    margin-bottom:
+
+    25px;
+
+
+}
+
+
+
+
+
+/* ================================
+   FOOTER
+================================ */
+
+
+.game-footer {
+
+
+    height:
+
+    60px;
+
+
+    display:flex;
+
+
+    justify-content:space-around;
+
+
+    align-items:center;
+
+
+    background:
+
+    var(--panel-bg);
+
+
+    border-top:
+
+    1px solid var(--border-color);
+
+
+    font-weight:
+
+    600;
+
+
+}
+
+
+
+/* ================================
+   SCROLLBAR
+================================ */
+
+
+::-webkit-scrollbar {
+
+
+    width:
+
+    8px;
+
+
+}
+
+
+
+::-webkit-scrollbar-thumb {
+
+
+    background:
+
+    var(--primary-color);
+
+
+    border-radius:
+
+    10px;
+
+
+}
