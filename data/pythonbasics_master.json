@@ -1,0 +1,256 @@
+{
+  "topic": "Python Basics",
+  "totalChallenges": 25,
+  "challenges": [
+    {
+      "id": 1,
+      "difficulty": "Easy",
+      "title": "Hello Warrior",
+      "question": "Write a Python program to print 'Hello, World!'.",
+      "starter": "# Write your code here\n",
+      "expected": "Hello, World!",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 2,
+      "difficulty": "Easy",
+      "title": "Print Your Name",
+      "question": "Print your name as 'Python Warrior'.",
+      "starter": "# Write your code here\n",
+      "expected": "Python Warrior",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 3,
+      "difficulty": "Easy",
+      "title": "Simple Addition",
+      "question": "Store 10 and 20 in two variables and print their sum.",
+      "starter": "# Declare variables\n",
+      "expected": "30",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 4,
+      "difficulty": "Easy",
+      "title": "Simple Subtraction",
+      "question": "Store 25 and 8 in variables and print their difference.",
+      "starter": "# Write your code here\n",
+      "expected": "17",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 5,
+      "difficulty": "Easy",
+      "title": "Multiplication",
+      "question": "Print the product of 7 and 8.",
+      "starter": "# Write your code here\n",
+      "expected": "56",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 6,
+      "difficulty": "Easy",
+      "title": "Division",
+      "question": "Print the result of 20 divided by 5.",
+      "starter": "# Write your code here\n",
+      "expected": "4.0",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 7,
+      "difficulty": "Easy",
+      "title": "Floor Division",
+      "question": "Print the result of 17 // 3.",
+      "starter": "# Write your code here\n",
+      "expected": "5",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 8,
+      "difficulty": "Easy",
+      "title": "Modulus",
+      "question": "Print the remainder when 17 is divided by 3.",
+      "starter": "# Write your code here\n",
+      "expected": "2",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 9,
+      "difficulty": "Easy",
+      "title": "Power",
+      "question": "Print 5 raised to the power of 3.",
+      "starter": "# Write your code here\n",
+      "expected": "125",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 10,
+      "difficulty": "Easy",
+      "title": "String Variable",
+      "question": "Create a variable named city with value 'Delhi' and print it.",
+      "starter": "# Write your code here\n",
+      "expected": "Delhi",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 11,
+      "difficulty": "Easy",
+      "title": "Integer Variable",
+      "question": "Store 100 in variable marks and print it.",
+      "starter": "# Write your code here\n",
+      "expected": "100",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 12,
+      "difficulty": "Easy",
+      "title": "Float Variable",
+      "question": "Store 99.5 in variable percentage and print it.",
+      "starter": "# Write your code here\n",
+      "expected": "99.5",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 13,
+      "difficulty": "Easy",
+      "title": "Boolean Value",
+      "question": "Assign True to variable status and print it.",
+      "starter": "# Write your code here\n",
+      "expected": "True",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 14,
+      "difficulty": "Easy",
+      "title": "Multiple Variables",
+      "question": "Create variables a=5, b=10 and print their sum.",
+      "starter": "# Write your code here\n",
+      "expected": "15",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 15,
+      "difficulty": "Easy",
+      "title": "Input Program",
+      "question": "Write a program to input a name and print it.",
+      "starter": "name=input()\n",
+      "expected": "",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 16,
+      "difficulty": "Easy",
+      "title": "Greeting",
+      "question": "Input a name and print 'Hello <name>'.",
+      "starter": "name=input()\n",
+      "expected": "",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 17,
+      "difficulty": "Easy",
+      "title": "Type Conversion",
+      "question": "Convert '25' into integer and print its type.",
+      "starter": "# Write your code here\n",
+      "expected": "<class 'int'>",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 18,
+      "difficulty": "Easy",
+      "title": "Print Two Lines",
+      "question": "Print 'Python' and 'Programming' on separate lines.",
+      "starter": "# Write your code here\n",
+      "expected": "Python\nProgramming",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 19,
+      "difficulty": "Easy",
+      "title": "Swap Variables",
+      "question": "Assign a=5, b=10 and swap their values, then print a and b.",
+      "starter": "# Write your code here\n",
+      "expected": "10\n5",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 20,
+      "difficulty": "Easy",
+      "title": "Area of Rectangle",
+      "question": "Store length=8 and breadth=4 and print area.",
+      "starter": "# Write your code here\n",
+      "expected": "32",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 21,
+      "difficulty": "Easy",
+      "title": "Perimeter",
+      "question": "Store length=8 and breadth=4 and print perimeter.",
+      "starter": "# Write your code here\n",
+      "expected": "24",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 22,
+      "difficulty": "Easy",
+      "title": "Average",
+      "question": "Print the average of 10, 20 and 30.",
+      "starter": "# Write your code here\n",
+      "expected": "20.0",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 23,
+      "difficulty": "Easy",
+      "title": "Square",
+      "question": "Print the square of 12.",
+      "starter": "# Write your code here\n",
+      "expected": "144",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 24,
+      "difficulty": "Easy",
+      "title": "Cube",
+      "question": "Print the cube of 5.",
+      "starter": "# Write your code here\n",
+      "expected": "125",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 25,
+      "difficulty": "Easy",
+      "title": "Python Ready",
+      "question": "Print 'I am ready to learn Python!'",
+      "starter": "# Write your code here\n",
+      "expected": "I am ready to learn Python!",
+      "xp": 20,
+      "coins": 10
+    }
+  ]
+}
