@@ -1,0 +1,381 @@
+{
+  "topic": "Python if-elif-else",
+  "totalQuestions": 25,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "Easy",
+      "question": "What is the purpose of if statement? ",
+      "options": [
+        "Loop",
+        "Decision making",
+        "Function",
+        "Variable"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 2,
+      "difficulty": "Easy",
+      "question": "Which keyword checks another condition after if?",
+      "options": [
+        "else",
+        "elif",
+        "then",
+        "case"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 3,
+      "difficulty": "Easy",
+      "question": "Which block executes when all conditions are False?",
+      "options": [
+        "if",
+        "elif",
+        "else",
+        "pass"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 4,
+      "difficulty": "Easy",
+      "question": "Output?\nx=5\nif x>3:\n print('Yes')",
+      "options": [
+        "Yes",
+        "No",
+        "Error",
+        "Nothing"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 5,
+      "difficulty": "Easy",
+      "question": "Output?\nx=2\nif x>5:\n print('A')\nelse:\n print('B')",
+      "options": [
+        "A",
+        "B",
+        "AB",
+        "Error"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 6,
+      "difficulty": "Easy",
+      "question": "Find the error:\nif x=5:",
+      "options": [
+        "No error",
+        "Use ==",
+        "Use :",
+        "Indent"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 7,
+      "difficulty": "Easy",
+      "question": "Fill blank: if x>0: ____:\n print('P')",
+      "options": [
+        "else",
+        "elif x==0",
+        "endif",
+        "stop"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 8,
+      "difficulty": "Easy",
+      "question": "Output?\nx=0\nif x:\n print('T')\nelse:\n print('F')",
+      "options": [
+        "T",
+        "F",
+        "0",
+        "Error"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 9,
+      "difficulty": "Easy",
+      "question": "Which comparison operator means not equal?",
+      "options": [
+        "=",
+        "!=",
+        "==",
+        "<>"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 10,
+      "difficulty": "Easy",
+      "question": "Output?\na=10\nif a<5:print(1)\nelif a<15:print(2)\nelse:print(3)",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "Error"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 11,
+      "difficulty": "Medium",
+      "question": "MCQ 11: if-elif-else concept/output/error finding.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": 0,
+      "explanation": "exp",
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 12,
+      "difficulty": "Medium",
+      "question": "MCQ 12: if-elif-else concept/output/error finding.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": 0,
+      "explanation": "exp",
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 13,
+      "difficulty": "Medium",
+      "question": "MCQ 13: if-elif-else concept/output/error finding.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": 0,
+      "explanation": "exp",
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 14,
+      "difficulty": "Medium",
+      "question": "MCQ 14: if-elif-else concept/output/error finding.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": 0,
+      "explanation": "exp",
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 15,
+      "difficulty": "Medium",
+      "question": "MCQ 15: if-elif-else concept/output/error finding.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": 0,
+      "explanation": "exp",
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 16,
+      "difficulty": "Medium",
+      "question": "MCQ 16: if-elif-else concept/output/error finding.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": 0,
+      "explanation": "exp",
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 17,
+      "difficulty": "Medium",
+      "question": "MCQ 17: if-elif-else concept/output/error finding.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": 0,
+      "explanation": "exp",
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 18,
+      "difficulty": "Medium",
+      "question": "MCQ 18: if-elif-else concept/output/error finding.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": 0,
+      "explanation": "exp",
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 19,
+      "difficulty": "Medium",
+      "question": "MCQ 19: if-elif-else concept/output/error finding.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": 0,
+      "explanation": "exp",
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 20,
+      "difficulty": "Medium",
+      "question": "MCQ 20: if-elif-else concept/output/error finding.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": 0,
+      "explanation": "exp",
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 21,
+      "difficulty": "Hard",
+      "question": "MCQ 21: if-elif-else concept/output/error finding.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": 0,
+      "explanation": "exp",
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 22,
+      "difficulty": "Hard",
+      "question": "MCQ 22: if-elif-else concept/output/error finding.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": 0,
+      "explanation": "exp",
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 23,
+      "difficulty": "Hard",
+      "question": "MCQ 23: if-elif-else concept/output/error finding.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": 0,
+      "explanation": "exp",
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 24,
+      "difficulty": "Hard",
+      "question": "MCQ 24: if-elif-else concept/output/error finding.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": 0,
+      "explanation": "exp",
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 25,
+      "difficulty": "Hard",
+      "question": "MCQ 25: if-elif-else concept/output/error finding.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": 0,
+      "explanation": "exp",
+      "xp": 10,
+      "coins": 5
+    }
+  ]
+}
