@@ -1,0 +1,361 @@
+/* =====================================================
+   CODING BATTLE ARENA
+   Responsive Design
+   Version: 1.0
+===================================================== */
+
+
+/* ================================
+   TABLET VIEW
+================================ */
+
+@media (max-width: 900px) {
+
+
+    .game-header {
+
+        height:auto;
+
+        flex-direction:column;
+
+        gap:15px;
+
+        padding:15px;
+
+    }
+
+
+
+    .logo {
+
+        font-size:1.5rem;
+
+    }
+
+
+
+    .player-info {
+
+        flex-wrap:wrap;
+
+        justify-content:center;
+
+    }
+
+
+
+    .game-container {
+
+        flex-direction:column;
+
+        height:auto;
+
+        overflow:visible;
+
+    }
+
+
+
+    .kingdom-panel {
+
+        width:100%;
+
+        border-right:none;
+
+        border-bottom:1px solid var(--border-color);
+
+    }
+
+
+
+    #kingdomList {
+
+
+        display:flex;
+
+        overflow-x:auto;
+
+        gap:10px;
+
+
+    }
+
+
+
+    .kingdom {
+
+
+        min-width:160px;
+
+        text-align:center;
+
+        justify-content:center;
+
+    }
+
+
+
+    .battle-area {
+
+        padding:15px;
+
+    }
+
+
+
+    .battle-card {
+
+        width:100%;
+
+    }
+
+
+}
+
+
+
+
+
+/* ================================
+   MOBILE VIEW
+================================ */
+
+
+@media (max-width:600px) {
+
+
+
+    .game-header {
+
+
+        padding:12px;
+
+    }
+
+
+
+    .logo {
+
+
+        font-size:1.3rem;
+
+        text-align:center;
+
+    }
+
+
+
+
+    .player-info {
+
+
+        width:100%;
+
+        gap:8px;
+
+    }
+
+
+
+    .player-info span {
+
+
+        font-size:0.85rem;
+
+    }
+
+
+
+    .player-info button {
+
+
+        padding:
+
+        8px 12px;
+
+    }
+
+
+
+
+
+    .kingdom-panel {
+
+
+        padding:10px;
+
+    }
+
+
+
+    .kingdom-panel h2 {
+
+
+        font-size:1.2rem;
+
+    }
+
+
+
+    .kingdom {
+
+
+        min-width:140px;
+
+        padding:10px;
+
+        font-size:0.9rem;
+
+    }
+
+
+
+
+
+    .battle-top {
+
+
+        width:100%;
+
+        flex-direction:column;
+
+        gap:15px;
+
+    }
+
+
+
+
+    .lives {
+
+
+        font-size:1.5rem;
+
+    }
+
+
+
+
+    .battle-card {
+
+
+        padding:20px;
+
+    }
+
+
+
+
+    #questionText {
+
+
+        font-size:1rem;
+
+    }
+
+
+
+
+    .option {
+
+
+        padding:12px;
+
+        font-size:0.95rem;
+
+    }
+
+
+
+
+    #submitBtn {
+
+
+        width:100%;
+
+    }
+
+
+
+
+
+    .code-editor {
+
+
+        min-height:200px;
+
+        font-size:0.9rem;
+
+    }
+
+
+
+
+    .code-buttons {
+
+
+        flex-direction:column;
+
+    }
+
+
+
+    .code-buttons button {
+
+
+        width:100%;
+
+    }
+
+
+
+
+    .game-footer {
+
+
+        height:auto;
+
+        padding:10px;
+
+        flex-wrap:wrap;
+
+        gap:10px;
+
+    }
+
+
+}
+
+
+
+
+
+
+/* ================================
+   SMALL MOBILE
+================================ */
+
+
+@media (max-width:400px) {
+
+
+
+    .kingdom {
+
+
+        min-width:120px;
+
+    }
+
+
+
+    .game-footer {
+
+
+        font-size:0.85rem;
+
+    }
+
+
+
+}
