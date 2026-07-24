@@ -1,0 +1,256 @@
+{
+  "topic": "Pandas",
+  "totalChallenges": 25,
+  "challenges": [
+    {
+      "id": 1,
+      "difficulty": "Easy",
+      "title": "Import Pandas",
+      "question": "Import the pandas library using the alias pd.",
+      "starter": "# Write your code here\n",
+      "expected": "Pandas Imported",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 2,
+      "difficulty": "Easy",
+      "title": "Create a Series",
+      "question": "Create a Series containing 10, 20, 30, 40.",
+      "starter": "import pandas as pd\n",
+      "expected": "0    10\n1    20\n2    30\n3    40",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 3,
+      "difficulty": "Easy",
+      "title": "Series with Labels",
+      "question": "Create a Series with labels A, B, C.",
+      "starter": "import pandas as pd\n",
+      "expected": "A    10\nB    20\nC    30",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 4,
+      "difficulty": "Easy",
+      "title": "Create DataFrame",
+      "question": "Create a DataFrame with Name and Marks columns.",
+      "starter": "import pandas as pd\n",
+      "expected": "DataFrame Created",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 5,
+      "difficulty": "Easy",
+      "title": "Display DataFrame",
+      "question": "Display the complete DataFrame.",
+      "starter": "import pandas as pd\n",
+      "expected": "DataFrame Displayed",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 6,
+      "difficulty": "Easy",
+      "title": "Display First Rows",
+      "question": "Display the first 2 rows using head().",
+      "starter": "import pandas as pd\n",
+      "expected": "First 2 Rows",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 7,
+      "difficulty": "Easy",
+      "title": "Display Last Rows",
+      "question": "Display the last 2 rows using tail().",
+      "starter": "import pandas as pd\n",
+      "expected": "Last 2 Rows",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 8,
+      "difficulty": "Easy",
+      "title": "Display Columns",
+      "question": "Print the column names of the DataFrame.",
+      "starter": "import pandas as pd\n",
+      "expected": "Index(['Name', 'Marks'])",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 9,
+      "difficulty": "Easy",
+      "title": "Select One Column",
+      "question": "Display only the Marks column.",
+      "starter": "import pandas as pd\n",
+      "expected": "Marks Column",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 10,
+      "difficulty": "Easy",
+      "title": "Add New Column",
+      "question": "Add a Grade column to the DataFrame.",
+      "starter": "import pandas as pd\n",
+      "expected": "Grade Added",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 11,
+      "difficulty": "Easy",
+      "title": "Delete Column",
+      "question": "Delete the Grade column.",
+      "starter": "import pandas as pd\n",
+      "expected": "Column Deleted",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 12,
+      "difficulty": "Easy",
+      "title": "DataFrame Shape",
+      "question": "Print the shape of the DataFrame.",
+      "starter": "import pandas as pd\n",
+      "expected": "(3, 2)",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 13,
+      "difficulty": "Easy",
+      "title": "Data Types",
+      "question": "Display the data types of each column.",
+      "starter": "import pandas as pd\n",
+      "expected": "Data Types Displayed",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 14,
+      "difficulty": "Easy",
+      "title": "Summary Statistics",
+      "question": "Display summary statistics using describe().",
+      "starter": "import pandas as pd\n",
+      "expected": "Summary Displayed",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 15,
+      "difficulty": "Easy",
+      "title": "Read CSV",
+      "question": "Read students.csv using pandas.",
+      "starter": "import pandas as pd\n",
+      "expected": "CSV Loaded",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 16,
+      "difficulty": "Easy",
+      "title": "Write CSV",
+      "question": "Save the DataFrame to result.csv.",
+      "starter": "import pandas as pd\n",
+      "expected": "CSV Saved",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 17,
+      "difficulty": "Easy",
+      "title": "Maximum Marks",
+      "question": "Display the highest value in the Marks column.",
+      "starter": "import pandas as pd\n",
+      "expected": "95",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 18,
+      "difficulty": "Easy",
+      "title": "Average Marks",
+      "question": "Calculate the average marks.",
+      "starter": "import pandas as pd\n",
+      "expected": "85.0",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 19,
+      "difficulty": "Easy",
+      "title": "Filter Records",
+      "question": "Display students with Marks greater than 80.",
+      "starter": "import pandas as pd\n",
+      "expected": "Filtered Data",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 20,
+      "difficulty": "Easy",
+      "title": "Sort Data",
+      "question": "Sort the DataFrame by Marks.",
+      "starter": "import pandas as pd\n",
+      "expected": "Sorted Data",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 21,
+      "difficulty": "Easy",
+      "title": "Locate Row",
+      "question": "Display the first row using loc[].",
+      "starter": "import pandas as pd\n",
+      "expected": "First Row",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 22,
+      "difficulty": "Easy",
+      "title": "Integer Location",
+      "question": "Display the second row using iloc[].",
+      "starter": "import pandas as pd\n",
+      "expected": "Second Row",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 23,
+      "difficulty": "Easy",
+      "title": "Count Missing Values",
+      "question": "Count missing values in the DataFrame.",
+      "starter": "import pandas as pd\n",
+      "expected": "Missing Values Count",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 24,
+      "difficulty": "Easy",
+      "title": "Fill Missing Values",
+      "question": "Replace missing values with 0.",
+      "starter": "import pandas as pd\n",
+      "expected": "Missing Values Filled",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 25,
+      "difficulty": "Easy",
+      "title": "Pandas Master",
+      "question": "Print 'Pandas Challenge Completed'.",
+      "starter": "# Write your code here\n",
+      "expected": "Pandas Challenge Completed",
+      "xp": 20,
+      "coins": 10
+    }
+  ]
+}
