@@ -1,0 +1,381 @@
+{
+  "topic": "Python Basics",
+  "totalQuestions": 25,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "Easy",
+      "question": "Who developed Python programming language?",
+      "options": [
+        "James Gosling",
+        "Dennis Ritchie",
+        "Guido van Rossum",
+        "Bjarne Stroustrup"
+      ],
+      "answer": 2,
+      "explanation": "Python was created by Guido van Rossum and first released in 1991.",
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 2,
+      "difficulty": "Easy",
+      "question": "Python is a ______ language.",
+      "options": [
+        "Compiled",
+        "Interpreted",
+        "Assembly",
+        "Machine"
+      ],
+      "answer": 1,
+      "explanation": "Python is an interpreted programming language.",
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 3,
+      "difficulty": "Easy",
+      "question": "Which symbol is used for comments in Python?",
+      "options": [
+        "//",
+        "#",
+        "/*",
+        "--"
+      ],
+      "answer": 1,
+      "explanation": "Single-line comments begin with #.",
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 4,
+      "difficulty": "Easy",
+      "question": "Which function is used to display output?",
+      "options": [
+        "display()",
+        "show()",
+        "print()",
+        "output()"
+      ],
+      "answer": 2,
+      "explanation": "print() displays output on the screen.",
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 5,
+      "difficulty": "Easy",
+      "question": "Which function is used to take input from the user?",
+      "options": [
+        "scan()",
+        "read()",
+        "input()",
+        "accept()"
+      ],
+      "answer": 2,
+      "explanation": "input() reads data entered by the user.",
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 6,
+      "difficulty": "Easy",
+      "question": "Which keyword defines a function?",
+      "options": [
+        "class",
+        "function",
+        "def",
+        "define"
+      ],
+      "answer": 2,
+      "explanation": "Functions are defined using the def keyword.",
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 7,
+      "difficulty": "Easy",
+      "question": "Which of the following is a valid variable name?",
+      "options": [
+        "2value",
+        "class",
+        "student_name",
+        "roll-no"
+      ],
+      "answer": 2,
+      "explanation": "Variable names may contain letters, digits and underscores but cannot start with a digit.",
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 8,
+      "difficulty": "Easy",
+      "question": "Which data type stores whole numbers?",
+      "options": [
+        "float",
+        "str",
+        "int",
+        "bool"
+      ],
+      "answer": 2,
+      "explanation": "int stores integer values.",
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 9,
+      "difficulty": "Easy",
+      "question": "Which operator is used for exponentiation?",
+      "options": [
+        "^",
+        "**",
+        "*",
+        "//"
+      ],
+      "answer": 1,
+      "explanation": "The ** operator calculates powers.",
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 10,
+      "difficulty": "Easy",
+      "question": "Which operator gives quotient without decimal part?",
+      "options": [
+        "/",
+        "%",
+        "//",
+        "**"
+      ],
+      "answer": 2,
+      "explanation": "Floor division (//) returns an integer quotient.",
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 11,
+      "difficulty": "Easy",
+      "question": "Which operator gives the remainder?",
+      "options": [
+        "%",
+        "/",
+        "//",
+        "*"
+      ],
+      "answer": 0,
+      "explanation": "The modulus (%) operator returns the remainder.",
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 12,
+      "difficulty": "Easy",
+      "question": "Python is ______ sensitive.",
+      "options": [
+        "Case",
+        "Space",
+        "Line",
+        "Digit"
+      ],
+      "answer": 0,
+      "explanation": "Python treats uppercase and lowercase letters differently.",
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 13,
+      "difficulty": "Easy",
+      "question": "Which of these is a Boolean value?",
+      "options": [
+        "Yes",
+        "True",
+        "1",
+        "On"
+      ],
+      "answer": 1,
+      "explanation": "Python Boolean values are True and False.",
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 14,
+      "difficulty": "Easy",
+      "question": "Which keyword is used to import a module?",
+      "options": [
+        "include",
+        "using",
+        "import",
+        "require"
+      ],
+      "answer": 2,
+      "explanation": "Modules are imported using the import keyword.",
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 15,
+      "difficulty": "Easy",
+      "question": "Which of these is a Python keyword?",
+      "options": [
+        "repeat",
+        "switch",
+        "pass",
+        "integer"
+      ],
+      "answer": 2,
+      "explanation": "pass is a valid Python keyword.",
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 16,
+      "difficulty": "Easy",
+      "question": "Which bracket is used for lists?",
+      "options": [
+        "()",
+        "[]",
+        "{}",
+        "<>"
+      ],
+      "answer": 1,
+      "explanation": "Lists are enclosed in square brackets [].",
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 17,
+      "difficulty": "Easy",
+      "question": "Which bracket is used for tuples?",
+      "options": [
+        "()",
+        "[]",
+        "{}",
+        "<>"
+      ],
+      "answer": 0,
+      "explanation": "Tuples are enclosed in parentheses ().",
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 18,
+      "difficulty": "Easy",
+      "question": "Which bracket is used for dictionaries?",
+      "options": [
+        "()",
+        "[]",
+        "{}",
+        "<>"
+      ],
+      "answer": 2,
+      "explanation": "Dictionaries use curly braces {}.",
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 19,
+      "difficulty": "Easy",
+      "question": "What is the extension of a Python file?",
+      "options": [
+        ".pt",
+        ".python",
+        ".py",
+        ".p"
+      ],
+      "answer": 2,
+      "explanation": "Python source files use the .py extension.",
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 20,
+      "difficulty": "Easy",
+      "question": "Which statement ends a program immediately?",
+      "options": [
+        "break",
+        "exit()",
+        "continue",
+        "return"
+      ],
+      "answer": 1,
+      "explanation": "exit() can terminate a program.",
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 21,
+      "difficulty": "Easy",
+      "question": "Which operator is used for assignment?",
+      "options": [
+        "==",
+        "=",
+        ":=",
+        "!="
+      ],
+      "answer": 1,
+      "explanation": "= assigns a value to a variable.",
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 22,
+      "difficulty": "Easy",
+      "question": "Which function returns the type of a variable?",
+      "options": [
+        "typeof()",
+        "type()",
+        "datatype()",
+        "kind()"
+      ],
+      "answer": 1,
+      "explanation": "type() returns the data type of an object.",
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 23,
+      "difficulty": "Easy",
+      "question": "Which value represents nothing in Python?",
+      "options": [
+        "0",
+        "null",
+        "None",
+        "blank"
+      ],
+      "answer": 2,
+      "explanation": "None represents the absence of a value.",
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 24,
+      "difficulty": "Easy",
+      "question": "Which function converts a value to an integer?",
+      "options": [
+        "str()",
+        "float()",
+        "int()",
+        "bool()"
+      ],
+      "answer": 2,
+      "explanation": "int() converts compatible values to integers.",
+      "xp": 10,
+      "coins": 5
+    },
+    {
+      "id": 25,
+      "difficulty": "Easy",
+      "question": "Python belongs to which generation of programming languages?",
+      "options": [
+        "First Generation",
+        "Second Generation",
+        "Third Generation",
+        "Fourth Generation"
+      ],
+      "answer": 2,
+      "explanation": "Python is considered a high-level third-generation programming language (3GL).",
+      "xp": 10,
+      "coins": 5
+    }
+  ]
+}
