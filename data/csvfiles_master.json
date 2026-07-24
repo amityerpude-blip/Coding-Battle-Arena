@@ -1,0 +1,256 @@
+{
+  "topic": "CSV Files",
+  "totalChallenges": 25,
+  "challenges": [
+    {
+      "id": 1,
+      "difficulty": "Easy",
+      "title": "Import CSV Module",
+      "question": "Import the csv module.",
+      "starter": "# Write your code here\n",
+      "expected": "csv module imported",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 2,
+      "difficulty": "Easy",
+      "title": "Write CSV File",
+      "question": "Create students.csv and write one record: Amit,95.",
+      "starter": "# Write your code here\n",
+      "expected": "CSV File Created",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 3,
+      "difficulty": "Easy",
+      "title": "Read CSV File",
+      "question": "Read and display all records from students.csv.",
+      "starter": "# Write your code here\n",
+      "expected": "Amit,95",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 4,
+      "difficulty": "Easy",
+      "title": "Write Multiple Records",
+      "question": "Write three student records into a CSV file.",
+      "starter": "# Write your code here\n",
+      "expected": "3 Records Written",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 5,
+      "difficulty": "Easy",
+      "title": "Append Record",
+      "question": "Append a new student record to students.csv.",
+      "starter": "# Write your code here\n",
+      "expected": "Record Added",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 6,
+      "difficulty": "Easy",
+      "title": "Display Row Count",
+      "question": "Count the total number of records in students.csv.",
+      "starter": "# Write your code here\n",
+      "expected": "3",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 7,
+      "difficulty": "Easy",
+      "title": "Display Header",
+      "question": "Read and display only the header row.",
+      "starter": "# Write your code here\n",
+      "expected": "Name,Marks",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 8,
+      "difficulty": "Easy",
+      "title": "CSV Reader",
+      "question": "Use csv.reader() to read a CSV file.",
+      "starter": "# Write your code here\n",
+      "expected": "CSV Read Successfully",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 9,
+      "difficulty": "Easy",
+      "title": "CSV Writer",
+      "question": "Use csv.writer() to create a CSV file.",
+      "starter": "# Write your code here\n",
+      "expected": "CSV Written Successfully",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 10,
+      "difficulty": "Easy",
+      "title": "CSV DictWriter",
+      "question": "Write records using csv.DictWriter().",
+      "starter": "# Write your code here\n",
+      "expected": "Dictionary Written",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 11,
+      "difficulty": "Easy",
+      "title": "CSV DictReader",
+      "question": "Read records using csv.DictReader().",
+      "starter": "# Write your code here\n",
+      "expected": "Dictionary Read",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 12,
+      "difficulty": "Easy",
+      "title": "Search Student",
+      "question": "Search for student 'Amit' in the CSV file.",
+      "starter": "# Write your code here\n",
+      "expected": "Record Found",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 13,
+      "difficulty": "Easy",
+      "title": "Highest Marks",
+      "question": "Find the student with the highest marks.",
+      "starter": "# Write your code here\n",
+      "expected": "Amit 95",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 14,
+      "difficulty": "Easy",
+      "title": "Average Marks",
+      "question": "Calculate the average marks of all students.",
+      "starter": "# Write your code here\n",
+      "expected": "85.0",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 15,
+      "difficulty": "Easy",
+      "title": "Count Students",
+      "question": "Count the total number of students.",
+      "starter": "# Write your code here\n",
+      "expected": "3",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 16,
+      "difficulty": "Easy",
+      "title": "Update Record",
+      "question": "Update marks of Amit to 98.",
+      "starter": "# Write your code here\n",
+      "expected": "Record Updated",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 17,
+      "difficulty": "Easy",
+      "title": "Delete Record",
+      "question": "Delete a student record from the CSV file.",
+      "starter": "# Write your code here\n",
+      "expected": "Record Deleted",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 18,
+      "difficulty": "Easy",
+      "title": "Copy CSV",
+      "question": "Copy one CSV file into another.",
+      "starter": "# Write your code here\n",
+      "expected": "CSV Copied",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 19,
+      "difficulty": "Easy",
+      "title": "CSV Exists",
+      "question": "Check whether students.csv exists.",
+      "starter": "# Write your code here\n",
+      "expected": "File Exists",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 20,
+      "difficulty": "Easy",
+      "title": "CSV Size",
+      "question": "Display the size of students.csv.",
+      "starter": "# Write your code here\n",
+      "expected": "CSV Size Displayed",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 21,
+      "difficulty": "Easy",
+      "title": "Sort Records",
+      "question": "Display student records sorted by marks.",
+      "starter": "# Write your code here\n",
+      "expected": "Sorted Successfully",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 22,
+      "difficulty": "Easy",
+      "title": "Filter Records",
+      "question": "Display students having marks greater than 80.",
+      "starter": "# Write your code here\n",
+      "expected": "Filtered Records",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 23,
+      "difficulty": "Easy",
+      "title": "CSV to List",
+      "question": "Read CSV data into a Python list.",
+      "starter": "# Write your code here\n",
+      "expected": "List Created",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 24,
+      "difficulty": "Easy",
+      "title": "List to CSV",
+      "question": "Write a Python list into a CSV file.",
+      "starter": "# Write your code here\n",
+      "expected": "CSV Created",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 25,
+      "difficulty": "Easy",
+      "title": "CSV Master",
+      "question": "Print 'CSV Challenge Completed'.",
+      "starter": "# Write your code here\n",
+      "expected": "CSV Challenge Completed",
+      "xp": 20,
+      "coins": 10
+    }
+  ]
+}
