@@ -1,0 +1,256 @@
+{
+  "topic": "Loops",
+  "totalChallenges": 25,
+  "challenges": [
+    {
+      "id": 1,
+      "difficulty": "Easy",
+      "title": "Print 1 to 5",
+      "question": "Write a program to print numbers from 1 to 5 using a for loop.",
+      "starter": "# Write your code here\n",
+      "expected": "1\n2\n3\n4\n5",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 2,
+      "difficulty": "Easy",
+      "title": "Print 5 to 1",
+      "question": "Write a program to print numbers from 5 to 1 using a while loop.",
+      "starter": "# Write your code here\n",
+      "expected": "5\n4\n3\n2\n1",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 3,
+      "difficulty": "Easy",
+      "title": "Even Numbers",
+      "question": "Print all even numbers from 2 to 10.",
+      "starter": "# Write your code here\n",
+      "expected": "2\n4\n6\n8\n10",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 4,
+      "difficulty": "Easy",
+      "title": "Odd Numbers",
+      "question": "Print all odd numbers from 1 to 9.",
+      "starter": "# Write your code here\n",
+      "expected": "1\n3\n5\n7\n9",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 5,
+      "difficulty": "Easy",
+      "title": "Table of 5",
+      "question": "Print the multiplication table of 5 up to 50.",
+      "starter": "# Write your code here\n",
+      "expected": "5\n10\n15\n20\n25\n30\n35\n40\n45\n50",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 6,
+      "difficulty": "Easy",
+      "title": "Sum of Numbers",
+      "question": "Find and print the sum of numbers from 1 to 10.",
+      "starter": "# Write your code here\n",
+      "expected": "55",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 7,
+      "difficulty": "Easy",
+      "title": "Factorial",
+      "question": "Find and print the factorial of 5.",
+      "starter": "# Write your code here\n",
+      "expected": "120",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 8,
+      "difficulty": "Easy",
+      "title": "Print Characters",
+      "question": "Print each character of the string 'Python' using a loop.",
+      "starter": "text='Python'\n",
+      "expected": "P\ny\nt\nh\no\nn",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 9,
+      "difficulty": "Easy",
+      "title": "Break Statement",
+      "question": "Print numbers from 1 onwards but stop when the number becomes 5.",
+      "starter": "# Write your code here\n",
+      "expected": "1\n2\n3\n4",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 10,
+      "difficulty": "Easy",
+      "title": "Continue Statement",
+      "question": "Print numbers from 1 to 5 but skip 3.",
+      "starter": "# Write your code here\n",
+      "expected": "1\n2\n4\n5",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 11,
+      "difficulty": "Easy",
+      "title": "Squares",
+      "question": "Print the squares of numbers from 1 to 5.",
+      "starter": "# Write your code here\n",
+      "expected": "1\n4\n9\n16\n25",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 12,
+      "difficulty": "Easy",
+      "title": "Cubes",
+      "question": "Print the cubes of numbers from 1 to 4.",
+      "starter": "# Write your code here\n",
+      "expected": "1\n8\n27\n64",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 13,
+      "difficulty": "Easy",
+      "title": "Reverse String",
+      "question": "Print the characters of 'CODE' in reverse order.",
+      "starter": "text='CODE'\n",
+      "expected": "E\nD\nO\nC",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 14,
+      "difficulty": "Easy",
+      "title": "Countdown",
+      "question": "Print numbers from 10 to 1.",
+      "starter": "# Write your code here\n",
+      "expected": "10\n9\n8\n7\n6\n5\n4\n3\n2\n1",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 15,
+      "difficulty": "Easy",
+      "title": "Range Step",
+      "question": "Use range() to print 2, 4, 6, 8 and 10.",
+      "starter": "# Write your code here\n",
+      "expected": "2\n4\n6\n8\n10",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 16,
+      "difficulty": "Easy",
+      "title": "Star Square",
+      "question": "Print a 3 × 3 square of stars using nested loops.",
+      "starter": "# Write your code here\n",
+      "expected": "***\n***\n***",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 17,
+      "difficulty": "Easy",
+      "title": "Increasing Pattern",
+      "question": "Print an increasing star pattern of 3 rows.",
+      "starter": "# Write your code here\n",
+      "expected": "*\n**\n***",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 18,
+      "difficulty": "Easy",
+      "title": "Decreasing Pattern",
+      "question": "Print a decreasing star pattern of 3 rows.",
+      "starter": "# Write your code here\n",
+      "expected": "***\n**\n*",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 19,
+      "difficulty": "Easy",
+      "title": "Sum of Even Numbers",
+      "question": "Find and print the sum of even numbers from 2 to 10.",
+      "starter": "# Write your code here\n",
+      "expected": "30",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 20,
+      "difficulty": "Easy",
+      "title": "Count Vowels",
+      "question": "Count the number of vowels in the string 'education'.",
+      "starter": "text='education'\n",
+      "expected": "5",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 21,
+      "difficulty": "Easy",
+      "title": "Largest Number",
+      "question": "Find and print the largest number in the list [3, 8, 2, 9, 5].",
+      "starter": "nums=[3,8,2,9,5]\n",
+      "expected": "9",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 22,
+      "difficulty": "Easy",
+      "title": "Print List",
+      "question": "Print each element of the list [10, 20, 30] using a loop.",
+      "starter": "nums=[10,20,30]\n",
+      "expected": "10\n20\n30",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 23,
+      "difficulty": "Easy",
+      "title": "While Counter",
+      "question": "Use a while loop to print numbers from 1 to 3.",
+      "starter": "# Write your code here\n",
+      "expected": "1\n2\n3",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 24,
+      "difficulty": "Easy",
+      "title": "Stop at Five",
+      "question": "Write a while loop that prints numbers from 1 to 5 and then stops.",
+      "starter": "# Write your code here\n",
+      "expected": "1\n2\n3\n4\n5",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 25,
+      "difficulty": "Easy",
+      "title": "Loop Complete",
+      "question": "After finishing a loop, print 'Loop Complete'.",
+      "starter": "# Write your code here\n",
+      "expected": "Loop Complete",
+      "xp": 20,
+      "coins": 10
+    }
+  ]
+}
