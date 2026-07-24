@@ -1,0 +1,256 @@
+{
+  "topic": "Text Files",
+  "totalChallenges": 25,
+  "challenges": [
+    {
+      "id": 1,
+      "difficulty": "Easy",
+      "title": "Create a Text File",
+      "question": "Create a file named student.txt and write 'Hello Python' into it.",
+      "starter": "# Write your code here\n",
+      "expected": "Hello Python",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 2,
+      "difficulty": "Easy",
+      "title": "Read a File",
+      "question": "Read and display the contents of student.txt.",
+      "starter": "# Write your code here\n",
+      "expected": "Hello Python",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 3,
+      "difficulty": "Easy",
+      "title": "Append Text",
+      "question": "Append 'Welcome' to student.txt and display the file.",
+      "starter": "# Write your code here\n",
+      "expected": "Hello Python\nWelcome",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 4,
+      "difficulty": "Easy",
+      "title": "Write Multiple Lines",
+      "question": "Write three lines into a file using writelines().",
+      "starter": "# Write your code here\n",
+      "expected": "Line 1\nLine 2\nLine 3",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 5,
+      "difficulty": "Easy",
+      "title": "Read Line by Line",
+      "question": "Read a file using readline().",
+      "starter": "# Write your code here\n",
+      "expected": "Line 1\nLine 2\nLine 3",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 6,
+      "difficulty": "Easy",
+      "title": "Read All Lines",
+      "question": "Read all lines using readlines().",
+      "starter": "# Write your code here\n",
+      "expected": "['Line 1\\n', 'Line 2\\n', 'Line 3']",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 7,
+      "difficulty": "Easy",
+      "title": "Count Characters",
+      "question": "Count the total characters in a text file.",
+      "starter": "# Write your code here\n",
+      "expected": "18",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 8,
+      "difficulty": "Easy",
+      "title": "Count Words",
+      "question": "Count total words in a text file.",
+      "starter": "# Write your code here\n",
+      "expected": "5",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 9,
+      "difficulty": "Easy",
+      "title": "Count Lines",
+      "question": "Count total lines in a text file.",
+      "starter": "# Write your code here\n",
+      "expected": "3",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 10,
+      "difficulty": "Easy",
+      "title": "Search a Word",
+      "question": "Check whether 'Python' exists in a file.",
+      "starter": "# Write your code here\n",
+      "expected": "Found",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 11,
+      "difficulty": "Easy",
+      "title": "Replace Text",
+      "question": "Replace 'Python' with 'Coding' in a file.",
+      "starter": "# Write your code here\n",
+      "expected": "Hello Coding",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 12,
+      "difficulty": "Easy",
+      "title": "Copy File",
+      "question": "Copy the contents of one file into another.",
+      "starter": "# Write your code here\n",
+      "expected": "File Copied Successfully",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 13,
+      "difficulty": "Easy",
+      "title": "Uppercase File",
+      "question": "Display the file contents in uppercase.",
+      "starter": "# Write your code here\n",
+      "expected": "HELLO PYTHON",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 14,
+      "difficulty": "Easy",
+      "title": "Lowercase File",
+      "question": "Display the file contents in lowercase.",
+      "starter": "# Write your code here\n",
+      "expected": "hello python",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 15,
+      "difficulty": "Easy",
+      "title": "Longest Word",
+      "question": "Find the longest word in a text file.",
+      "starter": "# Write your code here\n",
+      "expected": "Programming",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 16,
+      "difficulty": "Easy",
+      "title": "Shortest Word",
+      "question": "Find the shortest word in a text file.",
+      "starter": "# Write your code here\n",
+      "expected": "is",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 17,
+      "difficulty": "Easy",
+      "title": "Count Vowels",
+      "question": "Count vowels present in a text file.",
+      "starter": "# Write your code here\n",
+      "expected": "8",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 18,
+      "difficulty": "Easy",
+      "title": "Count Digits",
+      "question": "Count digits present in a text file.",
+      "starter": "# Write your code here\n",
+      "expected": "4",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 19,
+      "difficulty": "Easy",
+      "title": "Count Uppercase",
+      "question": "Count uppercase letters in a file.",
+      "starter": "# Write your code here\n",
+      "expected": "2",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 20,
+      "difficulty": "Easy",
+      "title": "Count Lowercase",
+      "question": "Count lowercase letters in a file.",
+      "starter": "# Write your code here\n",
+      "expected": "15",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 21,
+      "difficulty": "Easy",
+      "title": "Using with Statement",
+      "question": "Open and read a file using the with statement.",
+      "starter": "# Write your code here\n",
+      "expected": "Hello Python",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 22,
+      "difficulty": "Easy",
+      "title": "File Exists",
+      "question": "Check whether student.txt exists.",
+      "starter": "# Write your code here\n",
+      "expected": "File Exists",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 23,
+      "difficulty": "Easy",
+      "title": "File Size",
+      "question": "Display the size of a text file.",
+      "starter": "# Write your code here\n",
+      "expected": "18",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 24,
+      "difficulty": "Easy",
+      "title": "Delete File",
+      "question": "Delete a text file if it exists.",
+      "starter": "# Write your code here\n",
+      "expected": "File Deleted",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 25,
+      "difficulty": "Easy",
+      "title": "Text File Master",
+      "question": "Print 'Text File Challenge Completed'.",
+      "starter": "# Write your code here\n",
+      "expected": "Text File Challenge Completed",
+      "xp": 20,
+      "coins": 10
+    }
+  ]
+}
