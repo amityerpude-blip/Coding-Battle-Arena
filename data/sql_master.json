@@ -1,0 +1,256 @@
+{
+  "topic": "SQL",
+  "totalChallenges": 25,
+  "challenges": [
+    {
+      "id": 1,
+      "difficulty": "Easy",
+      "title": "Select All",
+      "question": "Write a query to display all records from the Student table.",
+      "starter": "-- Write your SQL query here\n",
+      "expected": "SELECT * FROM Student;",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 2,
+      "difficulty": "Easy",
+      "title": "Select One Column",
+      "question": "Display only the Name column.",
+      "starter": "-- Write your SQL query here\n",
+      "expected": "SELECT Name FROM Student;",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 3,
+      "difficulty": "Easy",
+      "title": "WHERE Clause",
+      "question": "Display students whose Marks are greater than 80.",
+      "starter": "-- Write your SQL query here\n",
+      "expected": "SELECT * FROM Student WHERE Marks > 80;",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 4,
+      "difficulty": "Easy",
+      "title": "AND Operator",
+      "question": "Display students with Marks > 80 AND City='Delhi'.",
+      "starter": "-- Write your SQL query here\n",
+      "expected": "SELECT * FROM Student WHERE Marks > 80 AND City='Delhi';",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 5,
+      "difficulty": "Easy",
+      "title": "OR Operator",
+      "question": "Display students from Delhi OR Mumbai.",
+      "starter": "-- Write your SQL query here\n",
+      "expected": "SELECT * FROM Student WHERE City='Delhi' OR City='Mumbai';",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 6,
+      "difficulty": "Easy",
+      "title": "ORDER BY",
+      "question": "Sort students by Marks in descending order.",
+      "starter": "-- Write your SQL query here\n",
+      "expected": "SELECT * FROM Student ORDER BY Marks DESC;",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 7,
+      "difficulty": "Easy",
+      "title": "COUNT",
+      "question": "Count the total number of students.",
+      "starter": "-- Write your SQL query here\n",
+      "expected": "SELECT COUNT(*) FROM Student;",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 8,
+      "difficulty": "Easy",
+      "title": "MAX",
+      "question": "Find the highest marks.",
+      "starter": "-- Write your SQL query here\n",
+      "expected": "SELECT MAX(Marks) FROM Student;",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 9,
+      "difficulty": "Easy",
+      "title": "MIN",
+      "question": "Find the lowest marks.",
+      "starter": "-- Write your SQL query here\n",
+      "expected": "SELECT MIN(Marks) FROM Student;",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 10,
+      "difficulty": "Easy",
+      "title": "AVG",
+      "question": "Find the average marks.",
+      "starter": "-- Write your SQL query here\n",
+      "expected": "SELECT AVG(Marks) FROM Student;",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 11,
+      "difficulty": "Easy",
+      "title": "SUM",
+      "question": "Find the total marks of all students.",
+      "starter": "-- Write your SQL query here\n",
+      "expected": "SELECT SUM(Marks) FROM Student;",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 12,
+      "difficulty": "Easy",
+      "title": "DISTINCT",
+      "question": "Display distinct cities.",
+      "starter": "-- Write your SQL query here\n",
+      "expected": "SELECT DISTINCT City FROM Student;",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 13,
+      "difficulty": "Easy",
+      "title": "LIKE",
+      "question": "Display names starting with 'A'.",
+      "starter": "-- Write your SQL query here\n",
+      "expected": "SELECT * FROM Student WHERE Name LIKE 'A%';",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 14,
+      "difficulty": "Easy",
+      "title": "BETWEEN",
+      "question": "Display students with marks between 60 and 90.",
+      "starter": "-- Write your SQL query here\n",
+      "expected": "SELECT * FROM Student WHERE Marks BETWEEN 60 AND 90;",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 15,
+      "difficulty": "Easy",
+      "title": "IN",
+      "question": "Display students from Delhi or Raipur using IN.",
+      "starter": "-- Write your SQL query here\n",
+      "expected": "SELECT * FROM Student WHERE City IN ('Delhi','Raipur');",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 16,
+      "difficulty": "Easy",
+      "title": "CREATE TABLE",
+      "question": "Create a Student table with RollNo, Name and Marks.",
+      "starter": "-- Write your SQL query here\n",
+      "expected": "CREATE TABLE Student(RollNo INT, Name VARCHAR(30), Marks INT);",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 17,
+      "difficulty": "Easy",
+      "title": "INSERT",
+      "question": "Insert one student record.",
+      "starter": "-- Write your SQL query here\n",
+      "expected": "INSERT INTO Student VALUES(1,'Amit',95);",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 18,
+      "difficulty": "Easy",
+      "title": "UPDATE",
+      "question": "Update Amit's marks to 98.",
+      "starter": "-- Write your SQL query here\n",
+      "expected": "UPDATE Student SET Marks=98 WHERE Name='Amit';",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 19,
+      "difficulty": "Easy",
+      "title": "DELETE",
+      "question": "Delete the record where RollNo=1.",
+      "starter": "-- Write your SQL query here\n",
+      "expected": "DELETE FROM Student WHERE RollNo=1;",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 20,
+      "difficulty": "Easy",
+      "title": "GROUP BY",
+      "question": "Display average marks city-wise.",
+      "starter": "-- Write your SQL query here\n",
+      "expected": "SELECT City, AVG(Marks) FROM Student GROUP BY City;",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 21,
+      "difficulty": "Easy",
+      "title": "HAVING",
+      "question": "Display cities having average marks greater than 80.",
+      "starter": "-- Write your SQL query here\n",
+      "expected": "SELECT City, AVG(Marks) FROM Student GROUP BY City HAVING AVG(Marks)>80;",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 22,
+      "difficulty": "Medium",
+      "title": "INNER JOIN",
+      "question": "Display student names with their department names.",
+      "starter": "-- Write your SQL query here\n",
+      "expected": "SELECT Student.Name, Department.DeptName FROM Student INNER JOIN Department ON Student.DeptID=Department.DeptID;",
+      "xp": 25,
+      "coins": 15
+    },
+    {
+      "id": 23,
+      "difficulty": "Medium",
+      "title": "LEFT JOIN",
+      "question": "Display all students and matching departments.",
+      "starter": "-- Write your SQL query here\n",
+      "expected": "SELECT * FROM Student LEFT JOIN Department ON Student.DeptID=Department.DeptID;",
+      "xp": 25,
+      "coins": 15
+    },
+    {
+      "id": 24,
+      "difficulty": "Medium",
+      "title": "RIGHT JOIN",
+      "question": "Display all departments and matching students.",
+      "starter": "-- Write your SQL query here\n",
+      "expected": "SELECT * FROM Student RIGHT JOIN Department ON Student.DeptID=Department.DeptID;",
+      "xp": 25,
+      "coins": 15
+    },
+    {
+      "id": 25,
+      "difficulty": "Hard",
+      "title": "SQL Master",
+      "question": "Display the second highest marks from the Student table.",
+      "starter": "-- Write your SQL query here\n",
+      "expected": "SELECT MAX(Marks) FROM Student WHERE Marks < (SELECT MAX(Marks) FROM Student);",
+      "xp": 40,
+      "coins": 25
+    }
+  ]
+}
