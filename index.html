@@ -18,7 +18,32 @@
 
 
 <body>
+<!-- =====================================
+        PLAYER LOGIN POPUP
+====================================== -->
 
+<div id="playerPopup" class="popup-overlay">
+
+    <div class="popup-card">
+
+        <h1>⚔️ Coding Battle Arena</h1>
+
+        <p>Enter your warrior name</p>
+
+        <input
+            type="text"
+            id="playerInput"
+            placeholder="Your Name"
+            maxlength="25"
+        >
+
+        <button id="startGame">
+            🚀 Start Battle
+        </button>
+
+    </div>
+
+</div>
 
 <!-- ==============================
         HEADER
@@ -331,6 +356,8 @@ Choose a kingdom from the left to begin your coding adventure.
 <script src="js/codingEngine.js"></script>
 
 <script src="js/battleEngine.js"></script>
+
+<script src="js/player.js"></script>
 
 <script src="js/app.js"></script>
 
