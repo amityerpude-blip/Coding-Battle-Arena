@@ -1,0 +1,256 @@
+{
+  "topic": "Dictionaries",
+  "totalChallenges": 25,
+  "challenges": [
+    {
+      "id": 1,
+      "difficulty": "Easy",
+      "title": "Create Dictionary",
+      "question": "Create a dictionary with Name='Amit' and Marks=95, then print it.",
+      "starter": "# Write your code here\n",
+      "expected": "{'Name': 'Amit', 'Marks': 95}",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 2,
+      "difficulty": "Easy",
+      "title": "Access Value",
+      "question": "Print the value of the key 'Name'.",
+      "starter": "student={'Name':'Amit','Marks':95}\n",
+      "expected": "Amit",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 3,
+      "difficulty": "Easy",
+      "title": "Add New Key",
+      "question": "Add City='Raipur' to the dictionary.",
+      "starter": "student={'Name':'Amit','Marks':95}\n",
+      "expected": "{'Name': 'Amit', 'Marks': 95, 'City': 'Raipur'}",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 4,
+      "difficulty": "Easy",
+      "title": "Update Value",
+      "question": "Update Marks to 98.",
+      "starter": "student={'Name':'Amit','Marks':95}\n",
+      "expected": "{'Name': 'Amit', 'Marks': 98}",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 5,
+      "difficulty": "Easy",
+      "title": "Delete Key",
+      "question": "Delete the key 'Marks'.",
+      "starter": "student={'Name':'Amit','Marks':95}\n",
+      "expected": "{'Name': 'Amit'}",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 6,
+      "difficulty": "Easy",
+      "title": "Dictionary Length",
+      "question": "Print the number of key-value pairs.",
+      "starter": "student={'Name':'Amit','Marks':95,'City':'Raipur'}\n",
+      "expected": "3",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 7,
+      "difficulty": "Easy",
+      "title": "Display Keys",
+      "question": "Print all dictionary keys.",
+      "starter": "student={'Name':'Amit','Marks':95}\n",
+      "expected": "dict_keys(['Name', 'Marks'])",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 8,
+      "difficulty": "Easy",
+      "title": "Display Values",
+      "question": "Print all dictionary values.",
+      "starter": "student={'Name':'Amit','Marks':95}\n",
+      "expected": "dict_values(['Amit', 95])",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 9,
+      "difficulty": "Easy",
+      "title": "Display Items",
+      "question": "Print all key-value pairs.",
+      "starter": "student={'Name':'Amit','Marks':95}\n",
+      "expected": "dict_items([('Name', 'Amit'), ('Marks', 95)])",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 10,
+      "difficulty": "Easy",
+      "title": "Loop Through Keys",
+      "question": "Print each key of the dictionary.",
+      "starter": "student={'Name':'Amit','Marks':95}\n",
+      "expected": "Name\nMarks",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 11,
+      "difficulty": "Easy",
+      "title": "Loop Through Values",
+      "question": "Print each value of the dictionary.",
+      "starter": "student={'Name':'Amit','Marks':95}\n",
+      "expected": "Amit\n95",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 12,
+      "difficulty": "Easy",
+      "title": "Check Key",
+      "question": "Check whether 'Marks' exists in the dictionary.",
+      "starter": "student={'Name':'Amit','Marks':95}\n",
+      "expected": "True",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 13,
+      "difficulty": "Easy",
+      "title": "Using get()",
+      "question": "Retrieve the value of 'Marks' using get().",
+      "starter": "student={'Name':'Amit','Marks':95}\n",
+      "expected": "95",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 14,
+      "difficulty": "Easy",
+      "title": "Copy Dictionary",
+      "question": "Create a copy of the dictionary.",
+      "starter": "student={'Name':'Amit','Marks':95}\n",
+      "expected": "{'Name': 'Amit', 'Marks': 95}",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 15,
+      "difficulty": "Easy",
+      "title": "Clear Dictionary",
+      "question": "Remove all items from the dictionary.",
+      "starter": "student={'Name':'Amit','Marks':95}\n",
+      "expected": "{}",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 16,
+      "difficulty": "Easy",
+      "title": "Nested Dictionary",
+      "question": "Create a nested dictionary containing two students.",
+      "starter": "# Write your code here\n",
+      "expected": "Nested Dictionary Created",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 17,
+      "difficulty": "Easy",
+      "title": "Access Nested Value",
+      "question": "Print Amit's marks from a nested dictionary.",
+      "starter": "# Write your code here\n",
+      "expected": "95",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 18,
+      "difficulty": "Easy",
+      "title": "Dictionary from Lists",
+      "question": "Create a dictionary using two lists with zip().",
+      "starter": "# Write your code here\n",
+      "expected": "Dictionary Created",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 19,
+      "difficulty": "Easy",
+      "title": "Sort Keys",
+      "question": "Print dictionary keys in sorted order.",
+      "starter": "student={'City':'Raipur','Name':'Amit','Marks':95}\n",
+      "expected": "['City', 'Marks', 'Name']",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 20,
+      "difficulty": "Easy",
+      "title": "Maximum Value",
+      "question": "Print the highest value from {'A':10,'B':25,'C':15}.",
+      "starter": "marks={'A':10,'B':25,'C':15}\n",
+      "expected": "25",
+      "xp": 20,
+      "coins": 10
+    },
+    {
+      "id": 21,
+      "difficulty": "Medium",
+      "title": "Student Record Search",
+      "question": "Search for a student's name in a dictionary.",
+      "starter": "# Write your code here\n",
+      "expected": "Record Found",
+      "xp": 25,
+      "coins": 15
+    },
+    {
+      "id": 22,
+      "difficulty": "Medium",
+      "title": "Count Frequency",
+      "question": "Count the frequency of characters in a string using a dictionary.",
+      "starter": "# Write your code here\n",
+      "expected": "Frequency Count Displayed",
+      "xp": 25,
+      "coins": 15
+    },
+    {
+      "id": 23,
+      "difficulty": "Medium",
+      "title": "Merge Dictionaries",
+      "question": "Merge two dictionaries into one.",
+      "starter": "# Write your code here\n",
+      "expected": "Merged Successfully",
+      "xp": 25,
+      "coins": 15
+    },
+    {
+      "id": 24,
+      "difficulty": "Hard",
+      "title": "Student Result System",
+      "question": "Create a dictionary-based student result system and display all records.",
+      "starter": "# Write your code here\n",
+      "expected": "Student Records Displayed",
+      "xp": 35,
+      "coins": 20
+    },
+    {
+      "id": 25,
+      "difficulty": "Hard",
+      "title": "Dictionary Master",
+      "question": "Print 'Dictionary Challenge Completed'.",
+      "starter": "# Write your code here\n",
+      "expected": "Dictionary Challenge Completed",
+      "xp": 50,
+      "coins": 30
+    }
+  ]
+}
