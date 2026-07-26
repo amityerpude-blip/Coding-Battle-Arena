@@ -349,31 +349,42 @@ function checkAnswer(){
 
     else{
 
+    let player = getPlayer();
 
-        let player=getPlayer();
+    let remainingLives = player.lives - 1;
 
+    updateLives(remainingLives);
 
-        updateLives(
-            player.lives-1
-        );
+    playSound("wrong");
 
+    showFeedback("❌ Wrong Answer");
 
+    // Game Over
+    if(remainingLives <= 0){
 
-        playSound(
-            "wrong"
-        );
+        setTimeout(()=>{
 
+            playSound("gameover");
 
+            let retry = confirm(
+                "💀 GAME OVER!\n\n" +
+                "You have lost all 3 lives.\n\n" +
+                "Do you want to retry this kingdom?"
+            );
 
-        showFeedback(
+            if(retry){
 
-        "❌ Wrong Answer"
+                loadQuiz(currentKingdom);
 
-        );
+            }
 
+        },1000);
 
+        return;
 
     }
+
+}
 
 
 
