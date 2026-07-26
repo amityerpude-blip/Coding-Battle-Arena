@@ -218,10 +218,4 @@ document.addEventListener(
 ========================================= */
 
 
-window.onload = ()=>{
 
-
-    startGame();
-
-
-};
