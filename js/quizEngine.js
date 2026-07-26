@@ -359,24 +359,17 @@ function checkAnswer(){
 
     showFeedback("❌ Wrong Answer");
 
-    // Game Over
     if(remainingLives <= 0){
 
         setTimeout(()=>{
 
-            playSound("gameover");
-
-            let retry = confirm(
+            alert(
                 "💀 GAME OVER!\n\n" +
                 "You have lost all 3 lives.\n\n" +
-                "Do you want to retry this kingdom?"
+                "Click OK to retry this kingdom."
             );
 
-            if(retry){
-
-                loadQuiz(currentKingdom);
-
-            }
+            loadQuiz(currentKingdom);
 
         },1000);
 
