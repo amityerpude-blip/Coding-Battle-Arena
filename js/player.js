@@ -9,19 +9,18 @@ document.addEventListener("DOMContentLoaded", function(){
     const startBtn = document.getElementById("startGame");
     const playerName = document.getElementById("playerName");
 
-    let savedName = localStorage.getItem("playerName");
+    let player = getPlayer();
 
-    // Existing player
-    if(savedName){
+if(player.name !== "Guest"){
 
-        playerName.innerText = savedName;
+    updatePlayerInfo();
 
-        popup.style.display = "none";
+    popup.style.display = "none";
 
-        startGame();
+    startGame();
 
-        return;
-    }
+    return;
+}
 
     // New player
     startBtn.addEventListener("click", function(){
