@@ -16,7 +16,8 @@ function updatePlayerInfo(){
     let player = getPlayer();
 
 
-
+console.log(player);
+console.log(player.name);
     document.getElementById("playerName")
     .innerText = player.name;
 
