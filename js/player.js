@@ -37,13 +37,17 @@ document.addEventListener("DOMContentLoaded", function(){
             return;
         }
 
-        localStorage.setItem("playerName", name);
+        let player = getPlayer();
 
-        playerName.innerText = name;
+player.name = name;
 
-        popup.style.display = "none";
+savePlayer(player);
 
-        startGame();
+updatePlayerInfo();
+
+popup.style.display = "none";
+
+startGame();
     });
 
 });
