@@ -387,9 +387,13 @@ function updateLives(value){
 
 function resetLives(){
 
+    let player = getPlayer();
 
-    updateLives(3);
+    player.lives = 3;
 
+    savePlayer(player);
+
+    updateLivesDisplay();
 
 }
 
