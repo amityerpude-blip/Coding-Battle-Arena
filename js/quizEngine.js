@@ -165,6 +165,7 @@ function showQuestion(){
     ).innerText=
 
     currentQuestion+1;
+   updateBattleProgress();
 
 
 
@@ -390,7 +391,8 @@ function checkAnswer(){
 
         currentQuestion++;
 
-
+        updateBattleProgress();
+       
         showQuestion();
 
 
