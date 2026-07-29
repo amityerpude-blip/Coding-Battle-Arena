@@ -53,57 +53,23 @@ console.log(player.name);
 
 function updateLivesDisplay(){
 
-
     let player = getPlayer();
 
+    let lifeBox = document.querySelector(".lives");
 
+    if(!lifeBox) return;
 
-    let lifeBox =
+    let hearts = "";
 
-    document.querySelector(".lives");
+    for(let i=0; i<player.lives; i++){
 
-
-
-    if(!lifeBox)
-
-        return;
-
-
-
-    let hearts="";
-
-
-
-    for(let i=0;i<3;i++){
-
-
-        if(i < player.lives){
-
-
-            hearts += "❤️ ";
-
-
-        }
-
-        else{
-
-
-            hearts += "🖤 ";
-
-
-        }
-
+        hearts += "❤️ ";
 
     }
 
-
-
-    lifeBox.innerHTML=hearts;
-
+    lifeBox.innerHTML = hearts;
 
 }
-
-
 
 
 
