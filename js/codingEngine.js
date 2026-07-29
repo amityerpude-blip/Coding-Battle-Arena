@@ -380,105 +380,97 @@ output=sys.stdout.getvalue()
 ========================================= */
 
 
+/* =========================================
+   SUBMIT CODE
+========================================= */
+
 async function submitCode(){
 
+    // Get current challenge
+    let problem = codingData[currentCodingQuestion];
 
-    let problem =
-
-    codingData[
-    currentCodingQuestion
-    ];
-
-
-
+    // Execute student's Python code
     await runPythonCode();
 
+    // Get actual output
+    let actualOutput = document
+        .getElementById("outputBox")
+        .innerText
+        .replace(/\r\n/g, "\n")
+        .trim();
 
+    // Get expected output
+    let expectedOutput = problem.expected
+        .replace(/\r\n/g, "\n")
+        .trim();
 
-    let output =
+    // Debug (remove later if not needed)
+    console.log("Expected:", JSON.stringify(expectedOutput));
+    console.log("Actual  :", JSON.stringify(actualOutput));
 
-    document.getElementById(
-    "outputBox"
-    ).innerText
-    .trim();
-
-
-
-    if(
-    output === problem.expected.trim()
-    ){
-
+    // -----------------------------
+    // Correct Answer
+    // -----------------------------
+    if(actualOutput === expectedOutput){
 
         addXP(20);
-
-
         addCoins(10);
 
+        playSound("correct");
 
-        playSound(
-        "correct"
-        );
-
-
-        showFeedback(
-        "✅ Coding Challenge Passed"
-        );
-
+        showFeedback("✅ Coding Challenge Passed");
 
     }
 
+    // -----------------------------
+    // Wrong Answer
+    // -----------------------------
     else{
 
+        let player = getPlayer();
 
-        let player=getPlayer();
+        let remainingLives = player.lives - 1;
 
+        updateLives(remainingLives);
 
+        playSound("wrong");
 
-        updateLives(
-        player.lives-1
-        );
+        showFeedback("❌ Test Failed");
 
+        // Game Over
+        if(remainingLives <= 0){
 
+            setTimeout(()=>{
 
-        playSound(
-        "wrong"
-        );
+                alert(
+                    "💀 GAME OVER!\n\n" +
+                    "You have lost all 3 lives.\n\n" +
+                    "Retry the Master Challenge."
+                );
 
+                loadCodingChallenge(codingKingdom);
 
-        showFeedback(
-        "❌ Test Failed"
-        );
+            },1000);
 
+            return;
+
+        }
 
     }
 
-
-
+    // Refresh UI
     updatePlayerInfo();
 
-
-
+    // Load next question
     setTimeout(()=>{
-
 
         currentCodingQuestion++;
 
-
         showCodingQuestion();
-
-
 
     },1500);
 
-
-
 }
-
-
-
-
-
-
 
 /* =========================================
    MASTER COMPLETION
