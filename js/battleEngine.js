@@ -70,7 +70,8 @@ function startApprenticeBattle(){
 
     selectedMode="Apprentice";
 
-
+    document.getElementById("submitBtn").style.display = "inline-block";
+   
     setGameMode(
         "🏹 Apprentice Arena"
     );
@@ -102,6 +103,7 @@ function startMasterBattle(){
 
     selectedMode="Master";
 
+     document.getElementById("submitBtn").style.display = "none";
 
     setGameMode(
         "⚔️ Master Arena"
