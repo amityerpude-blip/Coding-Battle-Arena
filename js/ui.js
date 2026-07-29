@@ -129,7 +129,25 @@ function updateProgressDisplay(){
 
 }
 
+/* =========================================
+   QUIZ BATTLE PROGRESS
+========================================= */
 
+function updateBattleProgress(){
+
+    if(typeof quizData === "undefined") return;
+
+    if(quizData.length === 0) return;
+
+    let percent = Math.floor((currentQuestion / quizData.length) * 100);
+
+    if(percent > 100)
+        percent = 100;
+
+    document.getElementById("progress").innerText =
+    percent + "%";
+
+}
 
 
 
