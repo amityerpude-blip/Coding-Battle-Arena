@@ -361,23 +361,17 @@ function addCoins(amount){
 ========================================= */
 
 
-function updateLives(value){
-
+function updateLives(lives){
 
     let player = getPlayer();
 
-
-    player.lives = value;
-
+    player.lives = Math.max(0, lives);
 
     savePlayer(player);
 
+    updateLivesDisplay();
 
 }
-
-
-
-
 
 
 /* =========================================
@@ -396,10 +390,6 @@ function resetLives(){
     updateLivesDisplay();
 
 }
-
-
-
-
 
 
 /* =========================================
